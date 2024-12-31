@@ -1,3 +1,6 @@
+const axios = require('axios');
+const express = require('express');
+
 async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
     if (!query || query.trim() === '') {
         throw new Error('Parametr "query" jest wymagany i nie może być pusty.');
@@ -38,3 +41,29 @@ async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
         throw error;
     }
 }
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Endpoint do wyświetlania przefiltrowanych wyników
+app.get('/filtered-hits', async (req, res) => {
+    const { query, pageSize = 10, sort = 'RELEVANCE' } = req.query;
+
+    try {
+        const filteredHits = await fetchAllHits(query, pageSize, sort);
+
+        // Zwracamy przefiltrowane hity w formacie JSON
+        res.setHeader('Content-Type', 'application/json');
+        res.status(200).json(filteredHits);
+    } catch (error) {
+        console.error('Błąd podczas pobierania hits:', error.message);
+
+        // Zwrócenie błędu
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// Uruchomienie serwera
+app.listen(PORT, () => {
+    console.log(`Serwer działa na http://localhost:${PORT}`);
+});
