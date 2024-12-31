@@ -1,7 +1,7 @@
 const axios = require('axios');
 const express = require('express');
 
-async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
+async function fetchAllHits(query, pageSize = 24, sort = 'RELEVANCE') {
     const url = (page) =>
         `https://polona.pl/api/search-service/search/simple?query=${encodeURIComponent(query)}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
 
