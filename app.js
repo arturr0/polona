@@ -2,29 +2,35 @@ const axios = require('axios');
 const express = require('express');
 
 async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') {
-    const url = `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
+    const url = (page) => 
+        `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
+
+    let results = [];
+    let currentPage = page;
 
     try {
-        // Wykonanie zapytania do Polona API
-        const response = await axios.get(url, {
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        });
+        while (results.length < pageSize) {
+            const response = await axios.get(url(currentPage), {
+                headers: { 'Content-Type': 'application/json' },
+            });
 
-        // Filtracja wyników po "rights" w expandedFields
-        const filteredHits = response.data.hits.filter(hit => {
-            const rights = hit.expandedFields?.rights?.values?.[0];
-            return rights === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
-        });
+            const filteredHits = response.data.hits.filter(hit => {
+                const rights = hit.expandedFields?.rights?.values?.[0];
+                return rights === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
+            });
 
-        // Zwrócenie danych po filtracji
-        return { ...response.data, hits: filteredHits };
+            results = [...results, ...filteredHits];
+            currentPage++;
+
+            if (response.data.totalPages <= currentPage) break; // Przerwij, jeśli osiągnięto ostatnią stronę
+        }
+
+        return { hits: results.slice(0, pageSize), totalElements: results.length };
     } catch (error) {
-        // Obsługa błędów
         throw new Error(`Błąd API Polona: ${error.message}`);
     }
 }
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
