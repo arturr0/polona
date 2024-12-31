@@ -17,12 +17,10 @@ async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
     try {
         while (currentPage < totalPages) {
             const requestUrl = url(currentPage);
-            console.log(`Wysyłanie zapytania: ${requestUrl}`); // Logowanie URL
+            console.log(`Wysyłanie zapytania: ${requestUrl}`);
 
             const response = await axios.get(requestUrl, {
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                headers: { 'Content-Type': 'application/json' },
             });
 
             const filteredHits = response.data.hits.filter(hit => {
@@ -37,7 +35,12 @@ async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
 
         return allHits;
     } catch (error) {
-        console.error(`Błąd API Polona: ${error.message}`);
+        if (error.response) {
+            console.error(`Błąd API Polona: ${error.response.status}`);
+            console.error(`Treść błędu: ${JSON.stringify(error.response.data)}`);
+        } else {
+            console.error(`Błąd sieci: ${error.message}`);
+        }
         throw error;
     }
 }
