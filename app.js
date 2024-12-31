@@ -17,7 +17,7 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
 }
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.get('/search', async (req, res) => {
     const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
