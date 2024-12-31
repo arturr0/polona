@@ -1,67 +1,52 @@
 const axios = require('axios');
 const express = require('express');
 
+async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') {
+    const url = `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
+
+    try {
+        // Wykonanie zapytania do Polona API
+        const response = await axios.get(url, {
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        // Filtracja wyników po "rights" w expandedFields
+        const filteredHits = response.data.hits.filter(hit => {
+            const rights = hit.expandedFields?.rights?.values?.[0];
+            return rights === "Publikacja chroniona prawem autorskim - reprodukcja cyfrowa dostępna w czytelniach BN i na terminalach Academiki";
+        });
+
+        // Zwrócenie danych po filtracji
+        return { ...response.data, hits: filteredHits };
+    } catch (error) {
+        // Obsługa błędów
+        throw new Error(`Błąd API Polona: ${error.message}`);
+    }
+}
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Funkcja do wyszukiwania
-async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') {
-    const url = `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
-    try {
-        const response = await axios.get(url); // Zmienione na GET
-        return response.data;
-    } catch (error) {
-        throw new Error(`Błąd API Polona: ${error.response?.data?.message || error.message}`);
-    }
-}
-
-// Endpoint API
+// Endpoint wyszukiwania
 app.get('/search', async (req, res) => {
-    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE', titleContains } = req.query;
+    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
 
     try {
+        // Wykonanie wyszukiwania za pomocą Polona API
         const data = await searchPolona(query, page, pageSize, sort);
 
-        // Debugowanie - sprawdzenie, co zawiera data przed filtrowaniem
-        console.log('Odpowiedź API Polona:', data);
-
-        // Filtrowanie po `rights.values[0]` (twardo zapisany warunek)
-        let filteredHits = data.hits;
-
-        // Filtrowanie po prawach (twardo zapisany warunek)
-        filteredHits = filterByRights(filteredHits);
-
-        // Debugowanie - sprawdzenie, co zawiera filteredHits po filtrze praw
-        console.log('Filtered Hits po prawach:', filteredHits);
-
-        // Filtrowanie po tytule, jeśli zadano parametr titleContains
-        if (titleContains) {
-            filteredHits = filterByTitle(filteredHits, titleContains);
-        }
-
-        // Debugowanie - sprawdzenie, co zawiera filteredHits po filtrze tytułu
-        console.log('Filtered Hits po tytule:', filteredHits);
-
-        res.json({ ...data, hits: filteredHits });
+        // Wysłanie danych do przeglądarki
+        res.setHeader('Content-Type', 'application/json');
+        res.status(200).json(data);
     } catch (error) {
+        console.error('Błąd podczas wyszukiwania:', error.message);
+
+        // Wysłanie błędu w przypadku niepowodzenia
         res.status(500).json({ error: error.message });
     }
 });
-
-// Funkcja filtrująca po prawach
-function filterByRights(hits) {
-    const rightsValue = "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
-    return hits.filter(hit => 
-        hit.expandedFields?.rights?.values[0] === rightsValue
-    );
-}
-
-// Funkcja filtrująca po tytule
-function filterByTitle(hits, titleValue) {
-    return hits.filter(hit => 
-        hit.basicFields?.title?.values[0]?.toLowerCase().includes(titleValue.toLowerCase())
-    );
-}
 
 // Uruchomienie serwera
 app.listen(PORT, () => {
