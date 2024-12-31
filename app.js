@@ -27,7 +27,7 @@ function filterByTitleAndRights(hits, titleContains, rightsValue) {
 
 // Endpoint API
 app.get('/search', async (req, res) => {
-    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE', titleContains = 'c++', rights } = req.query;
+    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE', titleContains = 'historia', rights } = req.query;
 
     // Wartość praw autorskich, jeśli nie jest podana, ustawiamy jako domyślną
     const defaultRights = "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
