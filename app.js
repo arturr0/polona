@@ -22,13 +22,18 @@ const PORT = process.env.PORT || 3000;
 app.get('/search', async (req, res) => {
     const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
 
+    console.log('Zapytanie:', { query, page, pageSize, sort });
+
     try {
         const data = await searchPolona(query, page, pageSize, sort);
+        console.log('Wynik z API:', JSON.stringify(data, null, 2));
         res.json(data);
     } catch (error) {
+        console.error('Błąd podczas wyszukiwania:', error.message);
         res.status(500).json({ error: error.message });
     }
 });
+
 
 app.listen(PORT, () => {
     console.log(`Serwer działa na http://localhost:${PORT}`);
