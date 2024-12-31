@@ -1,9 +1,9 @@
 const axios = require('axios');
 const express = require('express');
 
-async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
+async function fetchAllHits(keywords, pageSize = 10, sort = 'RELEVANCE') {
     const url = (page) =>
-        `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
+        `https://polona.pl/api/search-service/search/simple?query=${keywords}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
 
     let allHits = [];
     let currentPage = 0;
@@ -19,15 +19,21 @@ async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
 
             const hits = response.data.hits;
 
-            // Dodajemy wyniki do listy
-            allHits = [...allHits, ...hits];
+            // Filtrowanie wyników na podstawie przekazanego słowa kluczowego i praw
+            const filteredHits = hits.filter(hit =>
+                hit.keywords?.values?.some(keyword => keyword.includes(keywords)) &&
+                hit.rights?.values?.includes('Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.')
+            );
+
+            // Dodajemy przefiltrowane wyniki do listy
+            allHits = [...allHits, ...filteredHits];
 
             // Aktualizacja liczby stron
             totalPages = response.data.totalPages;
             currentPage++;
         }
 
-        return allHits; // Zwróć wszystkie hity
+        return allHits; // Zwróć wszystkie przefiltrowane hity
     } catch (error) {
         throw new Error(`Błąd API Polona: ${error.message}`);
     }
@@ -36,14 +42,18 @@ async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Endpoint do wyświetlania wszystkich wyników
+// Endpoint do wyświetlania wyników na podstawie słów kluczowych i filtrowania po "Komunikacja autobusowa" oraz prawach
 app.get('/all-hits', async (req, res) => {
-    const { query, pageSize = 10, sort = 'RELEVANCE' } = req.query;
+    const { keywords, pageSize = 10, sort = 'RELEVANCE' } = req.query;
+
+    if (!keywords) {
+        return res.status(400).json({ error: 'Brak słów kluczowych w zapytaniu' });
+    }
 
     try {
-        const hits = await fetchAllHits(query, pageSize, sort);
+        const hits = await fetchAllHits(keywords, pageSize, sort);
 
-        // Zwracamy wszystkie hity w formacie JSON
+        // Zwracamy wszystkie przefiltrowane hity w formacie JSON
         res.setHeader('Content-Type', 'application/json');
         res.status(200).json(hits);
     } catch (error) {
