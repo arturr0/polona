@@ -22,16 +22,25 @@ app.get('/search', async (req, res) => {
     try {
         const data = await searchPolona(query, page, pageSize, sort);
 
+        // Debugowanie - sprawdzenie, co zawiera data przed filtrowaniem
+        console.log('Odpowiedź API Polona:', data);
+
         // Filtrowanie po `rights.values[0]` (twardo zapisany warunek)
         let filteredHits = data.hits;
 
         // Filtrowanie po prawach (twardo zapisany warunek)
         filteredHits = filterByRights(filteredHits);
 
+        // Debugowanie - sprawdzenie, co zawiera filteredHits po filtrze praw
+        console.log('Filtered Hits po prawach:', filteredHits);
+
         // Filtrowanie po tytule, jeśli zadano parametr titleContains
         if (titleContains) {
             filteredHits = filterByTitle(filteredHits, titleContains);
         }
+
+        // Debugowanie - sprawdzenie, co zawiera filteredHits po filtrze tytułu
+        console.log('Filtered Hits po tytule:', filteredHits);
 
         res.json({ ...data, hits: filteredHits });
     } catch (error) {
