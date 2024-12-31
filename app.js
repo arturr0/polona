@@ -19,8 +19,8 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
 // Funkcja filtrująca wyniki po tytule i prawach autorskich
 function filterByTitleAndRights(hits, titleContains, rightsValue) {
     return hits.filter(hit => {
-        const titleMatch = hit.basicFields?.title?.values[0]?.toLowerCase().includes(titleContains.toLowerCase());
-        const rightsMatch = hit.expandedFields?.rights?.values[0] === rightsValue;
+        const titleMatch = hit.basicFields.title.values[0].toLowerCase().includes(titleContains.toLowerCase());
+        const rightsMatch = hit.expandedFields.rights.values[0] === rightsValue;
         return titleMatch && rightsMatch;
     });
 }
