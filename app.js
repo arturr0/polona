@@ -2,7 +2,7 @@ const axios = require('axios');
 const express = require('express');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Funkcja do wyszukiwania
 async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') {
