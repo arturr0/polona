@@ -15,7 +15,7 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
         // Filtracja wyników po "rights" w expandedFields
         const filteredHits = response.data.hits.filter(hit => {
             const rights = hit.expandedFields?.rights?.values?.[0];
-            return rights === "Publikacja chroniona prawem autorskim - reprodukcja cyfrowa dostępna w czytelniach BN i na terminalach Academiki";
+            return rights === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
         });
 
         // Zwrócenie danych po filtracji
