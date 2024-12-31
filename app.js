@@ -1,56 +1,49 @@
 const axios = require('axios');
 const express = require('express');
 
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-// Funkcja do wyszukiwania w Polona API
 async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') {
     const url = `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
 
     try {
-        const response = await axios.get(url);  // Używamy GET, aby poprawnie wysłać zapytanie
-        return response.data;
+        // Wykonanie zapytania do Polona API
+        const response = await axios.get(url, {
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        // Filtracja wyników po "rights" w expandedFields
+        const filteredHits = response.data.hits.filter(hit => {
+            const rights = hit.expandedFields?.rights?.values?.[0];
+            return rights === "Publikacja chroniona prawem autorskim - reprodukcja cyfrowa dostępna w czytelniach BN i na terminalach Academiki";
+        });
+
+        // Zwrócenie danych po filtracji
+        return { ...response.data, hits: filteredHits };
     } catch (error) {
+        // Obsługa błędów
         throw new Error(`Błąd API Polona: ${error.message}`);
     }
 }
 
-// Funkcja filtrująca wyniki po tytule i prawach autorskich
-function filterByTitleAndRights(hits, titleContains, rightsValue) {
-    return hits.filter(hit => {
-        const titleMatch = hit.basicFields?.title?.values[0]?.toLowerCase().includes(titleContains.toLowerCase());
-        const rightsMatch = hit.expandedFields?.rights?.values[0] === rightsValue;
-        return titleMatch && rightsMatch;
-    });
-}
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-// Endpoint API
+// Endpoint wyszukiwania
 app.get('/search', async (req, res) => {
-    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE', titleContains = '', rights } = req.query;
-
-    // Wartość praw autorskich, jeśli nie jest podana, ustawiamy jako domyślną
-    const defaultRights = "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
+    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
 
     try {
-        // Wyszukiwanie w Polona API
+        // Wykonanie wyszukiwania za pomocą Polona API
         const data = await searchPolona(query, page, pageSize, sort);
 
-        // Filtrujemy dane, jeżeli są określone warunki wyszukiwania
-        let filteredHits = data.hits;
-        
-        // Filtruj po tytule i prawach, jeżeli oba warunki są podane
-        if (titleContains || rights) {
-            filteredHits = filterByTitleAndRights(filteredHits, titleContains, rights || defaultRights);
-        }
-
-        // Zwróć dane z przefiltrowanymi wynikami
+        // Wysłanie danych do przeglądarki
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json({ ...data, hits: filteredHits });
+        res.status(200).json(data);
     } catch (error) {
         console.error('Błąd podczas wyszukiwania:', error.message);
 
-        // Zwróć błąd, jeśli wystąpił problem
+        // Wysłanie błędu w przypadku niepowodzenia
         res.status(500).json({ error: error.message });
     }
 });
