@@ -36,7 +36,7 @@ app.get('/search', async (req, res) => {
 // Funkcja filtrująca
 function filterByRights(hits, rightsValue) {
     return hits.filter(hit => 
-        hit.expandedFields.rights?.values.0 == "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy."
+        hit.expandedFields.rights.values[0] == "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy."
     );
 }
 
