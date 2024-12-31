@@ -7,7 +7,7 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
     try {
         const response = await axios.post(url, {}, {
             headers: {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/json', // Ważny nagłówek
             },
         });
         return response.data;
@@ -19,23 +19,25 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Endpoint wyszukiwania
+// Endpoint API
 app.get('/search', async (req, res) => {
     const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
 
     try {
         const data = await searchPolona(query, page, pageSize, sort);
 
-        // Formatowanie wyników
+        // Zwracanie danych z poprawnym nagłówkiem
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(data); // Zwraca JSON z wynikami API
+        res.status(200).json(data); // Wyślij JSON do przeglądarki
     } catch (error) {
         console.error('Błąd podczas wyszukiwania:', error.message);
+
+        // Zwrot błędu
         res.status(500).json({ error: error.message });
     }
 });
 
-// Uruchamianie serwera
+// Uruchomienie serwera
 app.listen(PORT, () => {
     console.log(`Serwer działa na http://localhost:${PORT}`);
 });
