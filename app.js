@@ -2,62 +2,56 @@ const axios = require('axios');
 const express = require('express');
 
 async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
-    if (!query || query.trim() === '') {
-        throw new Error('Parametr "query" jest wymagany i nie może być pusty.');
-    }
-
-    const encodedQuery = encodeURIComponent(query);
     const url = (page) =>
-        `https://polona.pl/api/search-service/search/simple?query=${encodedQuery}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
+        `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
 
     let allHits = [];
     let currentPage = 0;
-    let totalPages = 1;
+    let totalPages = 1; // Początkowa wartość, zostanie nadpisana po pierwszym żądaniu
 
     try {
         while (currentPage < totalPages) {
-            const requestUrl = url(currentPage);
-            console.log(`Wysyłanie zapytania: ${requestUrl}`);
-
-            const response = await axios.get(requestUrl, {
-                headers: { 'Content-Type': 'application/json' },
+            const response = await axios.get(url(currentPage), {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
             });
 
-            const filteredHits = response.data.hits.filter(hit => {
+            const hits = response.data.hits;
+
+            // Filtrujemy wyniki, pozostawiając tylko rekordy z odpowiednią domeną
+            const filteredHits = hits.filter(hit => {
                 const rights = hit.expandedFields?.rights?.values?.[0];
                 return rights === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
             });
 
+            // Dodajemy przefiltrowane wyniki do listy
             allHits = [...allHits, ...filteredHits];
+
+            // Aktualizacja liczby stron
             totalPages = response.data.totalPages;
             currentPage++;
         }
 
-        return allHits;
+        return allHits; // Zwróć wszystkie przefiltrowane wyniki
     } catch (error) {
-        if (error.response) {
-            console.error(`Błąd API Polona: ${error.response.status}`);
-            console.error(`Treść błędu: ${JSON.stringify(error.response.data)}`);
-        } else {
-            console.error(`Błąd sieci: ${error.message}`);
-        }
-        throw error;
+        throw new Error(`Błąd API Polona: ${error.message}`);
     }
 }
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Endpoint do wyświetlania przefiltrowanych wyników
-app.get('/filtered-hits', async (req, res) => {
+// Endpoint do wyświetlania wszystkich wyników
+app.get('/all-hits', async (req, res) => {
     const { query, pageSize = 10, sort = 'RELEVANCE' } = req.query;
 
     try {
-        const filteredHits = await fetchAllHits(query, pageSize, sort);
+        const hits = await fetchAllHits(query, pageSize, sort);
 
-        // Zwracamy przefiltrowane hity w formacie JSON
+        // Zwracamy wszystkie hity w formacie JSON
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(filteredHits);
+        res.status(200).json(hits);
     } catch (error) {
         console.error('Błąd podczas pobierania hits:', error.message);
 
