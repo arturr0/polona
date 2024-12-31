@@ -1,9 +1,12 @@
 const axios = require('axios');
 const express = require('express');
 
-async function fetchAllHits(query, pageSize = 24, sort = 'RELEVANCE') {
+// Funkcja opóźnienia między zapytaniami
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function fetchAllHits(query, pageSize = 10, sort = 'RELEVANCE') {
     const url = (page) =>
-        `https://polona.pl/api/search-service/search/simple?query=${encodeURIComponent(query)}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
+        `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
 
     let allHits = [];
     let currentPage = 0;
@@ -11,42 +14,33 @@ async function fetchAllHits(query, pageSize = 24, sort = 'RELEVANCE') {
 
     try {
         while (currentPage < totalPages) {
-            try {
-                const response = await axios.get(url(currentPage), {
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                });
+            // Wysyłanie zapytania do Polona API
+            const response = await axios.get(url(currentPage), {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
 
-                const hits = response.data.hits;
-
-                // Filtrujemy wyniki, pozostawiając tylko rekordy z odpowiednią domeną
-                const filteredHits = hits.filter(hit => {
-                    const rights = hit.expandedFields?.rights?.values?.[0];
-                    return rights === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
-                });
-
-                // Dodajemy przefiltrowane wyniki do listy
-                allHits = [...allHits, ...filteredHits];
-
-                // Aktualizacja liczby stron
-                totalPages = response.data.totalPages;
-                currentPage++;
-            } catch (error) {
-                console.warn(`Błąd na stronie ${currentPage}: ${error.message}`);
-
-                // Opcjonalnie: przerwij działanie, jeśli błąd jest krytyczny
-                if (error.response?.status !== 400 || pageSize === 1) {
-                    throw error;
-                }
-
-                // W przypadku błędu 400 zmniejsz pageSize i spróbuj ponownie
-                pageSize = Math.max(1, Math.floor(pageSize / 2));
-                console.log(`Zmniejszono pageSize do ${pageSize}`);
+            // Sprawdzanie statusu odpowiedzi
+            if (response.status !== 200) {
+                console.error(`Odpowiedź serwera: ${response.status}`);
+                throw new Error('Błąd podczas pobierania danych');
             }
+
+            const hits = response.data.hits;
+
+            // Dodajemy wyniki do listy
+            allHits = [...allHits, ...hits];
+
+            // Aktualizacja liczby stron
+            totalPages = response.data.totalPages;
+            currentPage++;
+
+            // Dodaj opóźnienie po każdym żądaniu
+            await delay(1000); // 1 sekunda
         }
 
-        return allHits; // Zwróć wszystkie przefiltrowane wyniki
+        return allHits; // Zwróć wszystkie hity
     } catch (error) {
         throw new Error(`Błąd API Polona: ${error.message}`);
     }
