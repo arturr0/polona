@@ -4,25 +4,25 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Funkcja do wyszukiwania
+// Function to search Polona
 async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') {
     const url = `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
     try {
-        const response = await axios.post(url);
+        const response = await axios.get(url); // Fixed to use GET
         return response.data;
     } catch (error) {
-        throw new Error(`Błąd API Polona: ${error.message}`);
+        throw new Error(`Błąd API Polona: ${error.response?.data?.message || error.message}`);
     }
 }
 
-// Endpoint API
+// API Endpoint
 app.get('/search', async (req, res) => {
     const { query, page = 0, pageSize = 10, sort = 'RELEVANCE', rights } = req.query;
 
     try {
         const data = await searchPolona(query, page, pageSize, sort);
 
-        // Filtrowanie po wartości w `rights.values[0]`
+        // Filter by `rights.values[0]` if provided
         const filteredHits = rights 
             ? filterByRights(data.hits, rights) 
             : data.hits;
@@ -33,14 +33,14 @@ app.get('/search', async (req, res) => {
     }
 });
 
-// Funkcja filtrująca
+// Filtering Function
 function filterByRights(hits, rightsValue) {
     return hits.filter(hit => 
-        hit.expandedFields.rights.values[0] == "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy."
+        hit.expandedFields.rights.values[0] === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy."
     );
 }
 
-// Uruchomienie serwera
+// Start Server
 app.listen(PORT, () => {
     console.log(`Serwer działa na http://localhost:${PORT}`);
 });
