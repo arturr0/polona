@@ -5,52 +5,37 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
     const url = `https://polona.pl/api/search-service/search/simple?query=${query}&page=${page}&pageSize=${pageSize}&sort=${sort}`;
 
     try {
-        const response = await axios.post(url, {}, { // Puste ciało, jeśli API tego wymaga
+        const response = await axios.post(url, {}, {
             headers: {
-                'Content-Type': 'application/json', // W razie potrzeby ustaw Content-Type
+                'Content-Type': 'application/json',
             },
         });
         return response.data;
     } catch (error) {
-        throw new Error(error.message);
+        throw new Error(`Błąd API Polona: ${error.message}`);
     }
 }
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Endpoint wyszukiwania
 app.get('/search', async (req, res) => {
     const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
 
-    console.log('Zapytanie:', { query, page, pageSize, sort });
-
     try {
         const data = await searchPolona(query, page, pageSize, sort);
-        console.log('Wynik z API:', JSON.stringify(data, null, 2));
-        res.json(data);
+
+        // Formatowanie wyników
+        res.setHeader('Content-Type', 'application/json');
+        res.status(200).json(data); // Zwraca JSON z wynikami API
     } catch (error) {
         console.error('Błąd podczas wyszukiwania:', error.message);
         res.status(500).json({ error: error.message });
     }
 });
 
-
+// Uruchamianie serwera
 app.listen(PORT, () => {
     console.log(`Serwer działa na http://localhost:${PORT}`);
 });
-
-// Przykład wyszukiwania
-(async () => {
-    try {
-        const wyniki = await searchPolona('nic');
-        console.log('Wyniki wyszukiwania:', wyniki);
-        console.log("basicFields log");
-        console.log(wyniki.hits[1].basicFields); 
-        console.log(wyniki.hits[1].basicFields.dateDescriptive); 
-        console.log(wyniki.hits[1].basicFields.dateDescriptive.values);
-        
-        
-    } catch (error) {
-        console.error('Błąd:', error.message);
-    }
-})();
