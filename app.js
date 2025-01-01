@@ -11,13 +11,15 @@ async function searchPolona(query, page = 0, pageSize = 10, sort = 'RELEVANCE') 
                 'Content-Type': 'application/json',
             },
         });
-
+        let i = 0;
         // Filtracja wyników po "rights" w expandedFields
         const filteredHits = response.data.hits.filter(hit => {
+            
+            console.log(i);
             const rights = hit.expandedFields?.rights?.values?.[0];
             return rights === "Domena Publiczna. Wolno zwielokrotniać, zmieniać i rozpowszechniać oraz wykonywać utwór, nawet w celach komercyjnych, bez konieczności pytania o zgodę. Wykorzystując utwór należy pamiętać o poszanowaniu autorskich praw osobistych Twórcy.";
         });
-
+        console.log(response.data.hits.length);
         // Zwrócenie danych po filtracji
         return { ...response.data, hits: filteredHits };
     } catch (error) {
@@ -31,11 +33,11 @@ const PORT = process.env.PORT || 3000;
 
 // Endpoint wyszukiwania
 app.get('/search', async (req, res) => {
-    const { query, page = 0, pageSize = 10, sort = 'RELEVANCE' } = req.query;
+    const { query, page = 0, pageSize = 10000, sort = 'RELEVANCE' } = req.query;
 
     try {
         // Wykonanie wyszukiwania za pomocą Polona API
-        const data = await searchPolona(query, page, pageSize, sort);
+        const data = await searchPolona("historia", page, pageSize, sort);
 
         // Wysłanie danych do przeglądarki
         res.setHeader('Content-Type', 'application/json');
