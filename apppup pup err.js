@@ -9,8 +9,6 @@ async function searchPolona() {
       keywordFilters: {
         copyright: ['false'],
         keywords: ['Historia'],
-        category: ['Książki'],
-        language: ['polski'],
       },
     });
     return response.data; // Return the response data
@@ -27,9 +25,7 @@ async function searchOnGoogle(fraza) {
     const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
 
     // Launch Puppeteer browser
-    //const browser = await puppeteer.launch({ headless: true });
-    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
-
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
 
     await page.goto(url, { waitUntil: 'domcontentloaded' });
