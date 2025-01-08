@@ -1,0 +1,878 @@
+{
+    title: '1898 Dzieje Narodu Polskiego - Niska cena na Allegro.pl',
+    link: 'https://allegro.pl/listing?string=1898%20dzieje%20narodu%20polskiego&srsltid=AfmBOopHvSTZOVw2AiPWeyIzo-Gykb6wlhNRfay9zkzg6kEq78P__PKK',
+    snippet: ''
+  },
+  {
+    title: 'Dzieje narodu polskiego - Władysław Smoleński',
+    link: 'https://lubimyczytac.pl/ksiazka/215814/dzieje-narodu-polskiego',
+    snippet: 'Książka przedstawia historię Polski i na jej tle dzieje narodu polskiego od czasu osiedlenia się w Europie plemion słowiańskich do początków XX wieku.'  
+  },
+  {
+    title: 'Dzieje narodu polskiego : wykład popularny na podstawie ...',
+    link: 'https://pbc.biaman.pl/dlibra/publication/62098/edition/60429?language=pl',
+    snippet: 'Tytuł: Dzieje narodu polskiego : wykład popularny na podstawie ostatnich badań naukowych. Cz. 4. Autor: Smoleński, Władysław (1851-1926). Data wydania:.'
+  },
+  {
+    title: 'Historia narodu polskiego',
+    link: 'https://pl.wikipedia.org/wiki/Historia_narodu_polskiego',
+    snippet: 'Historia narodu polskiego – dzieło polskiego historyka i poety Adama Naruszewicza, pisane ok. 1776-1779, opublikowane zostało sześć tomów (od II do VII) w ...'
+  },
+  {
+    title: 'Dzieje narodu polskiego. [Cz.] 1, Dzieje Polski niepodległej',
+    link: 'https://polona.pl/preview/69e76ee4-9bc6-4f7d-9dc5-e315da5fab97',
+    snippet: 'Dąbrowski, Józef (1876-1926). Dzieje narodu polskiego. [Cz.] 1, Dzieje Polski niepodległej. | [1916]. Książki. Biblioteka Narodowa. Domena Publiczna ...'
+  }
+]
+Exact match found for "Dzieje narodu polskiego": [
+  {
+    title: 'Dzieje Narodu Polskiego - Niska cena na Allegro.pl',
+    link: 'https://allegro.pl/listing?string=dzieje%20narodu%20polskiego&srsltid=AfmBOopc--PMWMwqmxA_ADheScAFKcgPXP2qbCisuuI8SdRSmuYz_WXV',
+    snippet: 'Dzieje Narodu Polskiego na Allegro.pl - Zróżnicowany zbiór ofert, najlepsze ceny i promocje. Wejdź i znajdź to, czego szukasz!'
+  },
+  {
+    title: 'Dzieje narodu polskiego. T.1',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/531225/edition/453243?language=pl',
+    snippet: 'Tytuł: Dzieje narodu polskiego. T.1. Twórca: Bandtkie, Jerzy Samuel (1768–1835). Typ obiektu: monografie. Data wydania:.'
+  },
+  {
+    title: 'Tytuł: Dzieje narodu polskiego od najdawniejszych do ...',
+    link: 'https://kpbc.umk.pl/dlibra/publication/194736/edition/210770?language=pl',
+    snippet: 'Tytuł: Dzieje narodu polskiego od najdawniejszych do najnowszych czasów potocznie opowiedziane. T. 1. Autor: Schmitt, Henryk (1817-1883). Data wydania:.'
+  },
+  {
+    title: 'Dzieje narodu polskiego. Część 1',
+    link: 'http://www.wbc.poznan.pl/dlibra/doccontent?id=113490',
+    snippet: 'Dzieje narodu polskiego. Część 1 Grabieński, Władysław [pseud.]; Smoleński, Władysław (1851–1926). Poprzedni · Następny · Struktura obiektu. Opis obiektu'
+  },
+  {
+    title: '1898 Dzieje Narodu Polskiego - Niska cena na Allegro.pl',
+    link: 'https://allegro.pl/listing?string=1898%20dzieje%20narodu%20polskiego&srsltid=AfmBOopHvSTZOVw2AiPWeyIzo-Gykb6wlhNRfay9zkzg6kEq78P__PKK',
+    snippet: ''
+  },
+  {
+    title: 'Dzieje narodu polskiego - Władysław Smoleński',
+    link: 'https://lubimyczytac.pl/ksiazka/215814/dzieje-narodu-polskiego',
+    snippet: 'Książka przedstawia historię Polski i na jej tle dzieje narodu polskiego od czasu osiedlenia się w Europie plemion słowiańskich do początków XX wieku.'  
+  },
+  {
+    title: 'Dzieje narodu polskiego : wykład popularny na podstawie ...',
+    link: 'https://pbc.biaman.pl/dlibra/publication/62098/edition/60429?language=pl',
+    snippet: 'Tytuł: Dzieje narodu polskiego : wykład popularny na podstawie ostatnich badań naukowych. Cz. 4. Autor: Smoleński, Władysław (1851-1926). Data wydania:.'
+  },
+  {
+    title: 'Dzieje narodu polskiego. [Cz.] 1, Dzieje Polski niepodległej',
+    link: 'https://polona.pl/preview/69e76ee4-9bc6-4f7d-9dc5-e315da5fab97',
+    snippet: 'Dąbrowski, Józef (1876-1926). Dzieje narodu polskiego. [Cz.] 1, Dzieje Polski niepodległej. | [1916]. Książki. Biblioteka Narodowa. Domena Publiczna ...'
+  }
+]
+Google results for "Elementarna nauka historji ojczystej i powszechnej : szkice lekcyjne do użytku nauczycieli szkół powszechnych. Cz. 2, t. 1": [
+  {
+    title: 'Elementarna nauka historji ojczystej i powszechnej. Cz. 2, ...',
+    link: 'https://sbc.org.pl/Content/310668/Publikacja-KC-6918.pdf',
+    snippet: 'Elementarna nauka historji ojczystej i powszechnej. Cz. 2, t. 1 : szkice lekcyjne do użytku nauczycieli szkół powszechnych /. Paweł Bobek. Udostępnienie ...'
+  },
+  {
+    title: 'szkice lekcyi do użytku nauczycieli szkół ludowych, cz. 1',
+    link: 'https://sbc.org.pl/dlibra/publication/328700/edition/310667/elementarna-nauka-historyi-ojczystej-i-powszechnej-szkice-lekcyi-do-uzytku-nauczycieli-szkol-ludowych-cz-1-bobek-pawel-1883-1945?language=pl',
+    snippet: '4 maj 2018 — 1. Wariant tytułu: Elementarna nauka historyi ojczystej i powszechnej. Autor: Bobek, Paweł (1883-1945). Temat i słowa kluczowe: historia. ;.'
+  },
+  {
+    title: 'szkice lekcyjne do użytku nauczycieli szkół powszechnych. Cz. 2 ...',
+    link: 'https://prolib.pwsz-ns.edu.pl/ici/recorddetail?id=oai%3Apolona.pl%3A89781415',
+    snippet: 'Tytuł: Elementarna nauka historji ojczystej i powszechnej : szkice lekcyjne do użytku nauczycieli szkół powszechnych. Cz. 2, t. 1; Autorzy: Bobek, Paweł ...'
+  },
+  {
+    title: 'Elementarna nauka historyi ojczystej i powszechnej',
+    link: 'https://new.fbc.pionier.net.pl/publication/f3d3b7e67098b8a76b7c',
+    snippet: 'Szczegóły obiektu: Elementarna nauka historyi ojczystej i powszechnej : szkice lekcyi do użytku nauczycieli szkół ludowych, cz. 1 · Opis · Podobne obiekty.'
+  },
+  {
+    title: 'Temat: obraz szkoły - Prolib Integro',
+    link: 'http://luna.pwsz.legnica.edu.pl/integro/ici/search?q=obraz+szko%C5%82y&index=4&f4[0]=nauczanie',
+    snippet: 'Pozycja nr 4: Elementarna nauka historyi ojczystej i powszechnej : szkice lekcyjne do użytku nauczycieli szkół powszechnych.Cz. 2., T. 1. Przejdź do ...'
+  },
+  {
+    title: 'Autor: Bobek, Paweł (1883-1945) - OpacWWW',
+    link: 'https://prolib.pwsz-ns.edu.pl/ici/search?q=Bobek%2C+Pawe%C5%82+%281883-1945%29&index=2',
+    snippet: 'Tytuł: Elementarna nauka historyi ojczystej i powszechnej : szkice lekcyi do użytku nauczycieli szkół ludowych. Cz. 1; Autorzy: Bobek, Paweł (1883-1945) ...'
+  },
+  {
+    title: 'AUTOR TYTUł ADRES WYD SYGNATURA',
+    link: 'https://www.bn.org.pl/download/document/1540383143.pdf',
+    snippet: 'Inwentarze pałacu Krasińskich później Rzeczypospolitej / wydał Ignacy. Tadeusz Baranowski. Warszawa : Wł. Łazarski, 1910. 859.854 A.'
+  },
+  {
+    title: 'Nauka historii',
+    link: 'http://dbc.wroc.pl/Content/22708/PDF/RP%201295%20Nauka%20historii___.pdf',
+    snippet: 'Page 1. Page 2. PORADNIKI NAUCZYCIELSKIE. TOM DR-lICM. KAZIMIERZ SOCHANIEWICZ. NAUKA HISTORJI. WSKAZÓWKI DO SAMOKSZTAŁCENIA. MBA. •%3». LWÓW 1928. NAKŁAD I ...'
+  },
+  {
+    title: 'JAK UCZYĆ HIST0RJ1',
+    link: 'http://pbc.up.krakow.pl/Content/6680/jak_uczyc_historii_w_szkole_pows_gebert_bronislaw_001617.pdf',
+    snippet: 'Nauczanie historji w szkole powszechnej nie jest rzeczą tak łatwą, jakby to się napozór wydawać mogło. Dobre nauczanie, należyte realizowanie myśli, ...'
+  },
+  {
+    title: 'Historiograficzne próby Lucjana Rydla',
+    link: 'https://studiahistoricolitteraria.uken.krakow.pl/article/view/6844',
+    snippet: 'Bobek P., Elementarna nauka historii ojczystej i powszechnej. Szkice lekcyjne do użytku nauczycieli szkół powszechnych, cz. 2, t. 1, Cieszyn 1929.'      
+  }
+]
+No exact match found for "Elementarna nauka historji ojczystej i powszechnej : szkice lekcyjne do użytku nauczycieli szkół powszechnych. Cz. 2, t. 1"
+Google results for "Podręcznik historji wieków średnich": [
+  {
+    title: 'Historia Wieków Średnich - Niska cena na Allegro.pl',
+    link: 'https://allegro.pl/listing?string=historia%20wiek%C3%B3w%20%C5%9Brednich&srsltid=AfmBOoorQ75oFO7c-4SWoWYAa8xMieDkU33rkZ74mTAjvSm5cs0o6wmH',
+    snippet: 'Historia Wieków Średnich na Allegro.pl - Zróżnicowany zbiór ofert, najlepsze ceny i promocje ... tradycyjny podręcznik 242 oferty; atlas, tablice, wzory 0 ofert'
+  },
+  {
+    title: 'Historia wieków średnich / Evgenij Kosminski (1950)',
+    link: 'https://antykwariat-torun.pl/pl/p/Historia-wiekow-srednich-Evgenij-Kosminski-1950/1912',
+    snippet: 'Książka jest w dobrym, jak na książkę używaną, stanie, ma sztywną okładkę z uszkodzoną obwolutą, zawiera ilustracje w tekście. Znakomity podręcznik akademicki.'
+  },
+  {
+    title: 'Historia wieków średnich / E. Kosminski (1956)',
+    link: 'https://antykwariat-torun.pl/pl/p/Historia-wiekow-srednich-E.-Kosminski-1956/12388',
+    snippet: 'Tytuł: Historia wieków średnich. Autor: E. Kosminski. Wydanie: VI. Adres wydawniczy: Warszawa : Państwowe Zakłady Wydawnictw Szkolnych, 1956.'
+  },
+  {
+    title: 'Historia wieków średnich. Tom I',
+    link: 'https://www.antykwariat-minerwa.pl/pl/p/Historia-wiekow-srednich.-Tom-I/708',
+    snippet: 'Tytuł: Historia wieków średnich. Tom I. Rok wydania: 1956. Okładka: twarda. Wydawnictwo: Książka i wiedza. Stan: dostateczny +.'
+  },
+  {
+    title: 'HISTORIA WIEKÓW ŚREDNICH tom 1 (12463412701)',
+    link: 'https://allegro.pl/oferta/historia-wiekow-srednich-tom-1-12463412701?srsltid=AfmBOorizWaNZYP4VS9zaSeHAnQMiyHeRhFZyxXBAzRORMqceto13Hxb',
+    snippet: 'Stan, Używany. Faktura, Wystawiam fakturę bez VAT. Przedmiot, Historia. Rodzaj, kompendium, repetytorium, opracowanie. Klasa, wieloletnie. Okładka, twarda.'
+  },
+  {
+    title: 'Historia wieków średnich. E. KOSMINSKI (1950r.)',
+    link: 'https://katakumbus.pl/pl/p/Historia-wiekow-srednich.-E.-KOSMINSKI-1950r./35223',
+    snippet: 'TYTUŁ, Historia wieków średnich. AUTOR, E. KOSMINSKI. WYDAWNICTWO, Nasza Księgarnia. MIEJSCE WYDANIA, Warszawa. ROK WYDANIA, 1950. LICZBA STRON, 296.'   
+  },
+  {
+    title: 'Historia wieków średnich - Antykwariat Poliart',
+    link: 'https://poliart.biz/ksiazki-czasopisma-kartografia-i-nuty/136288-historia-wiekow-srednich.html?srsltid=AfmBOoqHsFMy-KJS-P5as25m1kvKZB7N2yZK6jQHYm4sC_Nsun3VX-Z-',
+    snippet: 'Tytuł: Historia wieków średnich. Autor: Siemionow W. Opis przedmiotu: Notka wydawnicza: Warszawa: Państwowe Zakłady Wydawnictw Szkolnych, 1954.'
+  },
+  {
+    title: 'Podręcznik historji wieków średnich z mapami historycznemi',
+    link: 'http://pbc.up.krakow.pl/dlibra/doccontent?id=1890',
+    snippet: 'Show details. ris · BibTeX. Podręcznik historji wieków średnich z mapami historycznemi Kareev, Nikolaj Ivanovič (1850-1931). Object description; Files list.'
+  },
+  {
+    title: 'Historya wieków średnich - Korzon, Tadeusz (1839-1918) - FBC',
+    link: 'https://fbc.pionier.net.pl/details/nnxvfVX',
+    snippet: 'Title: Historya wieków średnich · Creator: Korzon, Tadeusz (1839-1918) · Subject: Historia średniowieczna DBN · Description: podręczniki · Publisher: [Toledo, Ohio ...'
+  },
+  {
+    title: 'Zarys nauki o dokumencie polskim wieków średnich',
+    link: 'https://lubimyczytac.pl/ksiazka/21015/zarys-nauki-o-dokumencie-polskim-wiekow-srednich',
+    snippet: 'Podręcznik dyplomatyki polskiej wieków średnich Stanisława Kętrzyńskiego mimo upływu czasu w swych zasadniczych punktach nie stracił na aktualności i ciągle ...'
+  }
+]
+Exact match found for "Podręcznik historji wieków średnich": [
+  {
+    title: 'Podręcznik historji wieków średnich z mapami historycznemi',
+    link: 'http://pbc.up.krakow.pl/dlibra/doccontent?id=1890',
+    snippet: 'Show details. ris · BibTeX. Podręcznik historji wieków średnich z mapami historycznemi Kareev, Nikolaj Ivanovič (1850-1931). Object description; Files list.'
+  }
+]
+Searching for "Rys historyi powszechney. T. 3" on Google...
+Searching for "Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948. T. 1, Referaty" on Google...
+Searching for "Wstęp albo Wiadomości przygotowawcze do historyi powszechnej dla dzieci. Cz. 2" on Google...
+Searching for "Dzieje starożytne od początku czasów historycznych do drugiey połowy wieku szóstego ery chrześciańskiey" on Google...
+Searching for "Historja powszechna w zarysie" on Google...
+Google results for "Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948. T. 1, Referaty": [
+  {
+    title: 'Powszechny Zjazd Historyków Polskich, 7; Pamiętnik VII ...',
+    link: 'https://kpbc.umk.pl/dlibra/publication/39348?language=pl',
+    snippet: 'T. 1, Referaty. Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu, 19-22 września 1948 · T. 2, z. 1. Pamiętnik VII Powszechnego Zjazdu ...'
+  },
+  {
+    title: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we ...',
+    link: 'https://kpbc.umk.pl/dlibra/publication/39351/edition/49551?language=pl',
+    snippet: 'T. 2, z. 1, Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948, 15 lis 2023 ...'
+  },
+  {
+    title: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we ...',
+    link: 'https://kpbc.ukw.edu.pl/dlibra/publication/39352/edition/49549/content?ref=struct',
+    snippet: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu, 19-22 września 1948 T. 1, Referaty. ; Travaux du VII-e Congrès des Historiens Polonais à ...'
+  },
+  {
+    title: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we ...',
+    link: 'https://fbc.pionier.net.pl/details/oai:kpbc.umk.pl:49549',
+    snippet: 'Title: Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu, 19-22 września 1948 T. 1, Referaty. Alternative Title: Travaux du VII-e Congrès ...'
+  },
+  {
+    title: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich ...',
+    link: 'https://www.ban-dreas.pl/pamietnik-vii-powszechnego-zjazdu-historykow-polskich-we-wroclawiu-19-22-wrzesnia-1948-t-1-referaty,9992.html',
+    snippet: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948. T. 1: Referaty. 40.00 zł. Warszawa 1948. Polskie Towarzystwo Historyczne.'
+  },
+  {
+    title: 'Travaux du VII-e Congrès des Historiens Polonais à Wrocław, 19 ...',
+    link: 'https://kpbc.ukw.edu.pl/dlibra/publication/39352/edition/49549?language=en',
+    snippet: 'Show description in OAI-PMH format: · T. 1, Referaty. Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu, 19-22 września 1948 · T. 2, z. 1.'
+  },
+  {
+    title: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we ...',
+    link: 'https://fbc.pionier.net.pl/details/nnnbkq2',
+    snippet: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948 T. 2 z. 1. Tytuł odmienny: Powszechny Zjazd Historyków Polskich, 7.'
+  },
+  {
+    title: 'Powszechny Zjazd Historyków Polskich (7 ; 1948 ; Wrocław)',
+    link: 'https://biblioteka.wsb.warszawa.pl/ici/search?q=Powszechny+Zjazd+Historyk%C3%B3w+Polskich+%287+%3B+1948+%3B+Wroc%C5%82aw%29&index=2',
+    snippet: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948. T. 1, Referaty. Autorzy: Powszechny Zjazd Historyków Polskich (7 ...'
+  },
+  {
+    title: 'Pamie̜tnik VII Powszechnego Zjazdu Historyków Polskich ...',
+    link: 'https://books.google.com/books/about/Pamie%CC%9Ctnik_VII_Powszechnego_Zjazdu_Hist.html?id=YsUdzwEACAAJ',
+    snippet: 'Pamie̜tnik VII Powszechnego Zjazdu Historyków Polskich w Wrocławiu 19-22 września 1948, Issue 1. Front Cover. Powszechny Zjazd Historyków Polskich 7, 19448, ...'
+  },
+  {
+    title: 'Pamiętniki Zjazdu Historyków Polskich',
+    link: 'https://i.twirpx.link/files/science/historic/moc/pamietniki_zjazdu_historykow_polskich/',
+    snippet: 'Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948. ... Referaty plenarne, sekcje VII-XI. djvu. Раздел ... T. Daniszewski, ...'
+  }
+]
+No exact match found for "Pamiętnik VII Powszechnego Zjazdu Historyków Polskich we Wrocławiu 19-22 września 1948. T. 1, Referaty"
+Google results for "Wstęp albo Wiadomości przygotowawcze do historyi powszechnej dla dzieci. Cz. 2": [
+  {
+    title: 'EDUCARE NECESSE EST – POWRÓT DO ŹRÓDEŁ',
+    link: 'https://ipn.gov.pl/download/1/694382/Educare-powrot-do-zrodel.pdf',
+    snippet: 'historycznego ze Szkoły Podstawowej nr 2 w Łowiczu, w trakcie których dzieci uczyły się rozpoznawać znane miejsca w Łowiczu na podstawie kart poczto- wych i ...'
+  },
+  {
+    title: 'Jak pracować z uczniem zdolnym?',
+    link: 'http://www.bc.ore.edu.pl/Content/553/poradnik_dla_nauczycieli_historii.pdf',
+    snippet: 'Rozdział 1. Uczeń zdolny, czyli kto? Kilka uwag teoretycznych ......................................... 7. Jak rozumieć pojęcie „uczeń zdolny”?'
+  },
+  {
+    title: 'Dziecko w historii. Sytuacja dziecka w odrodzonym państwie ...',
+    link: 'https://dzieckowhistorii.uwb.edu.pl/download/oFBsOJy8aFxk9MUVISHVpYVZPYWoXI1A6CSIKEQoKc2BNCEFuaQMEKT4wBAY1JD56VVt2chd9FykHNwsRCgpzYE0NUHF5UVpkOToDFwZvYHorHDAlRzhFLQ8_AAgKAjR4QxsTIzkWGDILPANQUG9rekNbNSNHIlw2CA8HKkFUc25NFUExLgEALzcwRUhIKyg3AQ1hahchVC0OclRsBQc9PxxlTDI5HBwjNyEULkV4bgRACS8aGjVQKgUiBz4XBz40MxZXcXhBKmlnCUhGNmJ4dE0fKipQcw97AioHKwAFPgUYZgsrOAcZND08SQIOK3h0TRUiKFJzD3sWPEwz/dziecko_w_historii.pdf',
+    snippet: 'Do rąk czytelników oddajemy kolejny tom poświęcony dziecku w historii, obejmujący losy dziecka w odrodzonym państwie polskim.'
+  },
+  {
+    title: 'Wiadomości - Historyczne',
+    link: 'https://pth.net.pl/uploads/Wiadomo%C5%9Bci%20Historyczne/WH_2_23.pdf',
+    snippet: '15 lut 2024 — Ustrzycki, Historia 2. Podręcznik dla szkół ponadpodstawowych. Zakres podstawowy, cz. 1: Nowożytność do końca XVII w., Operon, Gdy- nia 2023 ...'
+  },
+  {
+    title: 'Reformowanie polskiej edukacji historycznej w XX wieku',
+    link: 'https://open.icm.edu.pl/bitstreams/164cdac0-98db-4fe0-8603-9ad5afe0182c/download',
+    snippet: 'Problematyka reform polskiej edukacji historycznej w XX wieku omawiana już była w wielu publikacjach poświęconych zarówno dziejom polskiej oświaty1 jak też ...'
+  },
+  {
+    title: 'Wydawnictwo Naukowe - ANSM',
+    link: 'http://pam.poznan.pl/shop/page/2',
+    snippet: 'Wydawnictwo ANSM w Poznaniu jest profesjonalnym, naukowym wydawnictwem akademickim, dbającym o poziom naukowy i edytorski wydawanych publikacji.'        
+  },
+  {
+    title: 'Nauka historii',
+    link: 'http://dbc.wroc.pl/Content/22708/PDF/RP%201295%20Nauka%20historii___.pdf',
+    snippet: '2) Dla szukającego pogłębienia swych wiadomości w zakre sie dydaktyki, pożyteczne są informacje bibljograficzne zawarte w cytowanej pracy H. Pohoskiej (str ...'
+  },
+  {
+    title: 'Człowiek twórcą historii',
+    link: 'https://historia.uwb.edu.pl/download/sFBsOJy8aFxk9MUVISHVuYVpMYWoXI1A6CSIKEQoKc2BNAUFuaQMEKT4wBAY1JD56VVtxfxd9FykHNwsRCgpzYE0KUXJpX1QrOzECHkh3eBwKCiA0XCFBMAk-KCcPC3N2TUkCMC4dAhk9MUVISHV4dE0PJjRGOFo3OTkKbFlMaHhDGxAnOQUfJTF3XVAMPzU2G1tvZEUwQTFEakwoCgI0KTMWEzAkGRMlICY7XVh0BncfFR9pUTRGOhQ5HjoKAT8GQApRchdcRxp7bDtdSGF4PgYVJmQPc0EGXg8DJwYEIjkKZgsrOAcZND08OAU1KD4tBBggLFwOXSwLMQAnEBooORVXBigUBCk-LDw4BTUuID0cGhx0GyFRP0R8TCICADZ4VRsTLmkO/t_8_miejsce_historii_w_edukacji_humanistycznej_w_xxi_w_czesc_2.pdf',
+    snippet: 'Dydaktyka historii w czasach zmiany i wobec zmiany. Izabela Lewandowska. Główne nurty refleksji dydaktyczno-historycznej po 1989 r.'
+  },
+  {
+    title: 'Wydawnictwo MAC Edukacja',
+    link: 'https://www.mac.pl/mac-akademia/edukacja-wczesnoszkolna/gra-w-kolory/klasa-2?typeBD=karta-pracy/',
+    snippet: 'MAC Edukacja to lider na rynku wydawnictw edukacyjnych. Grupa MAC S.A. - kompleksowa oferta: podręczniki szkolne, multimedia, zeszyty ćwiczeń, ...'      
+  },
+  {
+    title: 'Redakcyjno-pisarskie konstrukcje polskich jednodniówek ...',
+    link: 'https://journals.pan.pl/Content/118098/PDF/2020-04-RHPP-03-Zimnoch.pdf?handler=pdf',
+    snippet: 'ABSTRACT. This article analyzes the editoral and thematic structure of Polish school ephemera on the basis of seventeen single-issue publications of this ...'
+  }
+]
+No exact match found for "Wstęp albo Wiadomości przygotowawcze do historyi powszechnej dla dzieci. Cz. 2"
+Google results for "Dzieje starożytne od początku czasów historycznych do drugiey połowy wieku szóstego ery chrześciańskiey": [
+  {
+    title: 'Dzieje starożytne. Od początku czasów historycznych do ...',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/63437/edition/83780?language=pl',
+    snippet: 'Tytuł: Dzieje starożytne. Od początku czasów historycznych do drugiey połowy wieku szóstego, ery chrześcijańskiey. Twórca: Lelewel, Joachim (1786–1861). Typ ...'
+  },
+  {
+    title: 'Dzieje starożytne : od początku czasów historycznych do ...',
+    link: 'https://archive.org/details/Dzieje',
+    snippet: '1 gru 2020 — Dzieje starożytne : od początku czasów historycznych do drugiej połowy wieku szóstego, ery chrześciańskiey. by: Lelewel, Joachim (1786-1861).'
+  },
+  {
+    title: 'Dzieje starożytne : od początku czasów historycznych do drugiej ...',
+    link: 'http://elibrary.mab.lt/handle/1/1859?locale-attribute=en',
+    snippet: 'Dzieje starożytne : od początku czasów historycznych do drugiej połowy wieku szóstego, ery chrześciańskiey. Lelewel, Joachim. Date: 1818, 1819. URI: http ...'
+  },
+  {
+    title: 'Dzieje starożytne. Od początku czasów historycznych do ...',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/63437/edition/83780/content?ref=%2Fpublication%2F80199%2Fedition%2F94391',
+    snippet: 'Tytuł: Dzieje starożytne. Od początku czasów historycznych do drugiey połowy wieku szóstego, ery chrześcijańskiey ; Twórca: Lelewel, Joachim (1786–1861) ; Temat i ...'
+  },
+  {
+    title: 'Dzieje starożytne od początku czasów his..., Lelewel, Joachim ...',
+    link: 'https://polona.pl/preview/af3de761-21e1-4602-b1ba-c30333ad9ba6',
+    snippet: 'Lelewel, Joachim (1786-1861). Dzieje starożytne od początku czasów historycznych do drugiey połowy wieku szóstego ery chrześciańskiey. | 1818. Książki.' 
+  },
+  {
+    title: 'Dzieje starożytne : od początku czasów historycznych do ...',
+    link: 'https://elibrary.mab.lt/handle/1/1859',
+    snippet: 'J Lelewel · 1818 · Cytowane przez 7 — Dzieje starożytne : od początku czasów historycznych do drugiej połowy wieku szóstego, ery chrześciańskiey. Lelewel, Joachim. Data: 1818, 1819. URL: http ...'
+  },
+  {
+    title: 'File:Dzieje starożytne - od początku czasów historycznych ...',
+    link: 'https://commons.wikimedia.org/wiki/File:Dzieje_staro%C5%BCytne_-_od_pocz%C4%85tku_czas%C3%B3w_historycznych_do_drugiej_po%C5%82owy_wieku_sz%C3%B3stego,_ery_chrze%C5%9Bcia%C5%84skiey_(IA_Dzieje).pdf',
+    snippet: '21 lut 2023 — Dzieje starożytne od początku czasów historycznych do drugiey połowy wieku szóstego ery chrześciańskiey · 1818 · Adobe Acrobat 6.0 · ABBYY ...'
+  },
+  {
+    title: 'Dzieje starożytne : od początku czasów historycznych do ...',
+    link: 'https://elaba-lmavb.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma990002531464408476&vid=370LABT_LMAVB:LMAVB',
+    snippet: 'Dzieje starożytne : od początku czasów historycznych do drugiej połowy wieku szóstego, ery chrześciańskiey : atlas / Joachim Lelewel.'
+  },
+  {
+    title: 'od początku czasów historycznych do drugiey połowy wieku',
+    link: 'https://books.google.com/books/about/Dzieje_staro%C5%BAytne.html?id=5NFlAAAAcAAJ',
+    snippet: 'Dzieje staroźytne: od początku czasów historycznych do drugiey połowy wieku szóstégo, ery chrześciańskiey. Front Cover · Joachim Lelewel.'
+  },
+  {
+    title: 'Lelewel Joachim, Dzieje starożytne Od początku czasów ...',
+    link: 'https://onebid.pl/pl/ksiazki-i-starodruki-lelewel-joachim-dzieje-starozytne-od-poczatku-czasow-historycznych-do-drugiey-polowy-wieku-szostego-ery-chrzescianskiey/1154799',
+    snippet: '25 lut 2022 — Lelewel Joachim, Dzieje starożytne Od początku czasów historycznych do drugiey połowy wieku szóstégo ery chrześciańskiey ; Seweryn Oleszczyński, ...'
+  }
+]
+No exact match found for "Dzieje starożytne od początku czasów historycznych do drugiey połowy wieku szóstego ery chrześciańskiey"
+Google results for "Rys historyi powszechney. T. 3": [
+  {
+    title: 'Rys historyi powszechnéy. T. 3',
+    link: 'https://www.bibliotekacyfrowa.pl/dlibra/publication/36244',
+    snippet: 'Księgozbiór z Tarnowa 1949 r.'
+  },
+  {
+    title: 'Rys historyi powszechnéy - Digital Library of University ...',
+    link: 'https://bibliotekacyfrowa.pl/en/dlibra/publication/36238/rys-historyi-powszechney-kajdanov-ivan-kuz-mic-1780-1843',
+    snippet: "19 mar 2021 — Rys historyi powszechnéy. T. 3 · Kajdanov', Ivan Kuz'mič (1780–1843) · 1828 ; Rys historyi powszechnéy. T. 2 · Kajdanov', Ivan Kuz'mič (1780–1843)."
+  },
+  {
+    title: 'Rys krótki chronologiczny historyi powszechney do roku ...',
+    link: 'https://bc.radom.pl/dlibra/publication/40189/edition/38946?language=en',
+    snippet: 'Title: Rys krótki chronologiczny historyi powszechney do roku 1817 ... T. 3. Czechowski, Aleksander (1870-1916). Red. Tokarzewicz, Józef (1840?-1919) ...'
+  },
+  {
+    title: 'Dzieie od stworzenia świata aż do roku 1816, czyli Rys historyi ...',
+    link: 'https://katalogi.bn.org.pl/discovery/fulldisplay?docid=alma991006203949705066&vid=48OMNIS_NLOP:48OMNIS_NLOP',
+    snippet: 'Dzieie od stworzenia świata aż do roku 1816, czyli Rys historyi powszechney wszystkich narodów, chronologicznie ułożony s przydatkiem wynalazków, uczonych ludzi ...'
+  },
+  {
+    title: 'Rys historyi powszechnéy. T. 2 - Federacja Bibliotek Cyfrowych',
+    link: 'https://new.fbc.pionier.net.pl/publication/2bb5ec7a859f0cc1fa9f',
+    snippet: "Opis · Tytuł: Rys historyi powszechnéy. T. 2 · Twórca: Kajdanov', Ivan Kuz'mič (1780-1843). · Opis: Księgozbiór z Tarnowa 1949 r.; · XIV, 154, 4 s., [1] k. złoż."
+  },
+  {
+    title: 'Rys krótki chronologiczny historyi powszechneý do roku 1817',
+    link: 'https://new.fbc.pionier.net.pl/en/publication/c9187c35702646f5a2d2',
+    snippet: 'Rys krótki chronologiczny historyi powszechney do roku 1817. Creator:Sawicki ... T. 3, Magnetyzm, elektryczność. Creator:Sporzyński, Ksawery. Date:1926.'
+  },
+  {
+    title: 'Dziennik Wileński. 1821, T. 3, nr 12 - CRISPA',
+    link: 'https://crispa.uw.edu.pl/object/files/393822/display/JPEG',
+    snippet: 'jego historyi powszechney, dochowane przez. Focyusza, żałować nam każą zagmiema ca łego dzieła. Inny Olympiodor alexandryyski, filozof peripatetyk, był ...'
+  },
+  {
+    title: 'Dzieie od stworzenia świata aż do roku 1..., Marczyński, ...',
+    link: 'https://polona.pl/preview/da391413-bc75-4445-914e-d2a6fef7d71d',
+    snippet: 'Dzieie od stworzenia świata aż do roku 1816, czyli Rys historyi powszechney wszystkich narodów, chronologicznie ułożony s przydatkiem wynalazków, uczonych ludzi ...'
+  },
+  {
+    title: 'Historya cywilizacyi powszechney T.3-4',
+    link: 'https://bc.radom.pl/dlibra/publication/edition/25245/content',
+    snippet: 'Historya cywilizacyi powszechney T.3-4. Ducoudray, Gustave (1838-1906). Metadata; Files list. Title: Historya cywilizacyi powszechney T.3-4. Creator: Ducoudray ...'
+  }
+]
+No exact match found for "Rys historyi powszechney. T. 3"
+Google results for "Historja powszechna w zarysie": [
+  {
+    title: 'Historia powszechna 1871-1939 w zarysie',
+    link: 'https://ksiegarniamiles.pl/sklep/antykwariat/historia/historia-powszechna-1871-1939-w-zarysie/',
+    snippet: 'Stan: +dostateczny. Autor: Jerzy Prokopczuk. Rok wydania: 1973. Oprawa: twarda. Liczba stron: 362. Format: 170 x 245. Warunki wysyłki ...'
+  },
+  {
+    title: 'Historia Powszechna w zarysie 1871-1939 - (13309725603)',
+    link: 'https://allegro.pl/oferta/historia-powszechna-w-zarysie-1871-1939-13309725603?srsltid=AfmBOooNV0XV7yptnxl_sYomMx3GM-THu-l-_tcYg70secROYuVT9pdK',
+    snippet: 'Parametry ; Autor, J.Prokopczuk ; Nośnik, książka papierowa ; Okładka, twarda ; Rok wydania, 1964 ; Wydawnictwo, inne (Opis).'
+  },
+  {
+    title: 'Historia powszechna 1789-1870 w zarysie - Henryk Katz',
+    link: 'https://lubimyczytac.pl/ksiazka/4982508/historia-powszechna-1789-1870-w-zarysie',
+    snippet: 'Historia powszechna 1789-1870 w zarysie · Henryk Katz w księgarniach · Książki autora · Patronaty LC · Mogą Cię zainteresować · Oceny · OPINIE i DYSKUSJE.'
+  },
+  {
+    title: 'Historia Powszechna 1789-1880 W Zarysie - Katz Henryk',
+    link: 'https://tezeusz.pl/historia-powszechna-1789-1880-w-zarysie-katz-henryk?srsltid=AfmBOorjW0HczbXYYfSrQXsJM1tIGOt3OFcBzUFJW-2uKNcSsW4PaVEr',
+    snippet: 'Historia Powszechna 1789-1880 W Zarysie ; Rok wydania: 1961 ; Tezeusz Sp. z o.o.. ul. Armii Krajowej 18 30-150 Kraków NIP 7372208663. BDO 000484838. REGON ...'
+  },
+  {
+    title: 'HISTORIA POWSZECHNA W ZARYSIE 1871-1939',
+    link: 'https://staradobraksiazka.pl/52273-historia-powszechna-w-zarysie-1871-1939',
+    snippet: 'AUTOR: JERZY PROKOPCZUK. ILUSTRACJE: TAK. JĘZYK: POLSKI. WYDANIE: PIERWSZE. ROK WYDANIA: 1964. ILOŚĆ STRON: 408 + MAPA. OKŁADKA: TWARDA.'
+  },
+  {
+    title: 'Historia Polski i powszechna w krótkim zarysie',
+    link: 'http://barbara.sklep.pl/produkt/opracowania-przekrojowe-varia/historia-polski-i-powszechna-w-krotkim-zarysie/',
+    snippet: 'Opis produktu. Zbiór krótkich zeszytów poświęconych poszczególnym zagadnieniom: 1. Polska Bolesławów. Tworzenie się średniowiecznego porządku. (Wiek X-XIII).'
+  },
+  {
+    title: 'Historia Powszechna 1871 - Niska cena na Allegro.pl',
+    link: 'https://allegro.pl/listing?string=historia%20powszechna%201871%20-&srsltid=AfmBOoqQuCGAtdKiNDbQbGnhwMZ1lyC0h7z-kjC9erShpIQJiJJiSE2e',
+    snippet: ''
+  },
+  {
+    title: 'Historia powszechna 1871-1939 : w zarysie / Prokopczuk, Jerzy.',
+    link: 'https://m6058.lib.mol.pl/description/77221/historia-powszechna-1871-1939-77221',
+    snippet: 'Tytuł: Historia powszechna 1871-1939 : w zarysie / Jerzy Pokopczuk. Autorzy: Prokopczuk, Jerzy. Wydano: Warszawa : Państwowe Zakłady Wydawnictw Szkolnych, ...'
+  },
+  {
+    title: 'HISTORIA POWSZECHNA 1789-1870 W ZARYSIE - Katz',
+    link: 'https://staradobraksiazka.pl/52274-historia-powszechna-1789-1870-w-zarysie-katz',
+    snippet: 'Opis produktu · AUTOR: HENRYK KATZ. · ILUSTRACJE: TAK. · JĘZYK: POLSKI. · WYDANIE: PIERWSZE. · ROK WYDANIA: 1961. · ILOŚĆ STRON: 484 + ZAŁĄCZNIK. · OKŁADKA: TWARDA.'
+  },
+  {
+    title: 'Historja starożytna w zarysie : podręcznik dla młodzieży ...',
+    link: 'https://pbc.biaman.pl/dlibra/publication/63213?language=pl',
+    snippet: 'Tytuł: Historja starożytna w zarysie : podręcznik dla młodzieży szkolnej i samouków : kurs niższy ; Autor: Malczewski, Władysław Al. ; Data wydania: 1918 ; Typ ...'
+  }
+]
+No exact match found for "Historja powszechna w zarysie"
+Searching for "Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych" on Google...
+Searching for "Przygotowania do nauki dziejów powszechnych i historji, rozwinięcie się umysłu i ducha ludzkiego" on Google...
+Searching for "Dzieje starożytne : Wschód" on Google...
+Searching for "Historya xiążąt y krolow polskich krótko zebrana" on Google...
+Searching for "Nowe wieczory Pod Lipą : książka dla młodzieży : opowiadania z historyi powszechnej i z historyi Polski, z ludoznawstwa, krajoznawstwa i z przyrody kraju ojczystego, tudzież legendy, poezye i powieści. Cz. 1" on Google...
+Google results for "Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych": [
+  {
+    title: 'Opis historyczno - jeograficzny Wielk. Ks. Poznańskiego ...',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/114052/edition/127272?language=pl',
+    snippet: 'Tytuł: Opis historyczno - jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych ; Twórca: Sempiński F. X. ; Typ obiektu: podręczniki ; Data wydania:.'
+  },
+  {
+    title: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla ...',
+    link: 'http://www.wbc.poznan.pl/dlibra/doccontent?id=456308',
+    snippet: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych / wydany przez F. X. Sempińskiego. Sempiński, F. X.. Opis obiektu'  
+  },
+  {
+    title: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku ...',
+    link: 'https://fbc.pionier.net.pl/details/nhnp99g',
+    snippet: 'Tytuł: Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych ; Twórca: Sempiński, Franciszek Ksawery ; Temat: · zabór pruski.'
+  },
+  {
+    title: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla ...',
+    link: 'https://dlibra.bmino.pl/dlibra/docmetadata?id=289210385&from=pubstats',
+    snippet: 'Twórca: Sempiński, Franciszek Ksawery. Temat: Polska ; Wielkopolska ; Historia ; 19 w. ; zabór pruski.'
+  },
+  {
+    title: 'Opis historyczno - jeograficzny Wielk. Ks. Poznańskiego dla użytku ...',
+    link: 'https://new.fbc.pionier.net.pl/publication/d16946b0a8fda6b008cb',
+    snippet: 'Tytuł: Opis historyczno - jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych ; Twórca: Sempiński F. X. ; Dostępność obiektu: Dostęp otwarty.'
+  },
+  {
+    title: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla ...',
+    link: 'https://prolib.pwsz-ns.edu.pl/ici/recorddetail?id=oai%3Apolona.pl%3A92895061',
+    snippet: 'Tytuł: Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych; Autorzy: Sempiński, Franciszek Ksawery (1827-post 1905) ...'
+  },
+  {
+    title: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla ...',
+    link: 'https://books.google.com/books/about/Opis_historyczno_jeograficzny_Wielk_Ks_P.html?id=PrRv0AEACAAJ',
+    snippet: 'Title, Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych ; Author, F. X. Sempiński ; Contributor, Księgarnia Jana Konstantego ...'
+  },
+  {
+    title: 'Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla ...',
+    link: 'https://prolib.pwsz-ns.edu.pl/ici/recorddetail?id=oai%3Apolona.pl%3A92895061&_lang=en',
+    snippet: 'Title: Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych; Authors: Sempiński, Franciszek Ksawery (1827-post 1905) ...'
+  },
+  {
+    title: 'SEMPIŃSKI F[ranciszek] X[awery] - Opis historyczno- ...',
+    link: 'https://onebid.pl/pl/boecker-och-gamla-tryck-sempinski-f-ranciszek-x-awery-opis-historyczno-jeograficzny-wielk-ks-poznanskiego-dla-uzytku-szkol-elementarnych/1739091',
+    snippet: 'SEMPIŃSKI F[ranciszek] X[awery] - Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych, wydany przez ... Poznań 1854.'   
+  },
+  {
+    title: 'Inowrocławska Biblioteka Cyfrowa - IBC',
+    link: 'https://dlibra.bmino.pl/dlibra/results?action=SearchAction&QI=1elv4johukzkr9ssinyksk10y-1&isRemote=off&isExpandable=on&queryType=-6&roleId=title&&query=%22Opis+historyczno-jeograficzny+Wielk.+Ks.+Pozna%C5%84skiego+dla+u%C5%BCytku+szk%C3%B3%C5%82+elementarnych%22',
+    snippet: 'Tytuł = "Opis historyczno-jeograficzny Wielk. Ks. Pozna?skiego dla u?ytku szk ? elementarnych". W trakcie wyszukiwania wystąpił nieoczekiwany błąd serwera ...'
+  }
+]
+No exact match found for "Opis historyczno-jeograficzny Wielk. Ks. Poznańskiego dla użytku szkół elementarnych"
+Google results for "Historya xiążąt y krolow polskich krótko zebrana": [
+  {
+    title: 'Teodora Wagi Historya książąt i królów polskich',
+    link: 'https://pbc.biaman.pl/dlibra/publication/15087/edition/17014?language=pl',
+    snippet: 'Tytuł: Teodora Wagi Historya książąt i królów polskich : krótko zebrana, dla lepszego użytku znacznie przerobiona i pomnożona. ; Autor: Waga, Teodor (1739-1801) ...'
+  },
+  {
+    title: 'Historya książąt i królów polskich',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/541111/edition/456306?language=pl',
+    snippet: 'Teodora Wagi historya książąt i królów polskich krótko zebrana dla lepszego użytku wydaniem wileńskiem 1824 znacznie przerobiona i pomnożona.'
+  },
+  {
+    title: 'Historya Xiążąt y Królów Polskich krótko zebrana z ...',
+    link: 'https://dbc.wroc.pl/dlibra/publication/26778/edition/24212?language=pl',
+    snippet: 'Autor: Waga, Teodor (1739-1801). Opis: Historia książąt i królów polskich ; Defekt: brak k. tyt. Wydawca: Drukarnia Pijarów (Warszawa). Miejsce wydania:.'
+  },
+  {
+    title: 'Teodora Wagi historya książąt i królów polskich krótko ...',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/255534/edition/219103?language=pl',
+    snippet: 'Tytuł: Teodora Wagi historya książąt i królów polskich krótko zebrana dla lepszego użytku wydaniem wileńskiem 1824 znacznie przerobiona i pomnożona. Twórca ...'
+  },
+  {
+    title: 'Historya książąt i królów polskich: krótko zebrana dla ...',
+    link: 'https://www.pbc.biaman.pl/publication/2549',
+    snippet: 'Teodora Wagi Historya książąt i królów polskich : krótko zebrana, dla lepszego użytku znacznie przerobiona i pomnożona. Waga, Teodor (1739-1801) Lelewel, ...'
+  },
+  {
+    title: 'Teodora Wagi Historya książąt i królów polskich',
+    link: 'https://polona.pl/preview/1c7fdfcf-d05f-41d9-ac84-37bde560698c',
+    snippet: 'Waga, Teodor (1739-1801). Teodora Wagi Historya książąt i królów polskich : krótko zebrana, dla lepszego użytku powtórnie przeyrzana i dodatkami pomnożona.'
+  },
+  {
+    title: 'Teodora Wagi Historya książąt i królów polskich',
+    link: 'https://books.google.pl/books?id=kW9KAAAAcAAJ&printsec=frontcover&hl=pl',
+    snippet: 'Teodora Wagi Historya książąt i królów polskich: Krótko zebrana dla lepszego ... Autorzy: Teodor Waga. Informacje o książce · Warunki usługi ...'        
+  },
+  {
+    title: 'Teodora Wagi Historya książąt i królów polskich : krótko ... - FBC',
+    link: 'https://fbc.pionier.net.pl/details/nn9rc4W',
+    snippet: 'Tytuł: Teodora Wagi Historya książąt i królów polskich : krótko zebrana, dla lepszego użytku znacznie przerobiona i pomnożona. ; Twórca: Waga, Teodor (1739-1801).'
+  },
+  {
+    title: 'HISTORYA KSIĄŻĄT I KRÓLÓW POLSKICH Wilno 1808',
+    link: 'https://antyksobieski.pl/waga-historya-ksiazat-i-krolow-polskich-wyd-1808.html',
+    snippet: 'TEODORA WAGI. HISTORYA KSIĄŻĄT I KRÓLÓW POLSKICH. krótko zebrana z niektóremi uwagami nad dzieiami narodu polskiego na nowo przedrukowana. Wilno 1824.'  
+  },
+  {
+    title: 'Teodora Wagi Historya książąt i królów polskich - CRISPA',
+    link: 'https://crispa.uw.edu.pl/object/files/98923/display/Default',
+    snippet: 'Teodora Wagi Historya książąt i królów polskich : krótko zebrana dla lepszego użytku wydaniem wileńskim 1824 znacznie przerobiona i pomnożona. JPEG · PDF. Page.'
+  }
+]
+No exact match found for "Historya xiążąt y krolow polskich krótko zebrana"
+Google results for "Przygotowania do nauki dziejów powszechnych i historji, rozwinięcie się umysłu i ducha ludzkiego": [
+  {
+    title: 'Historia nauki jako historia ducha ludzkiego',
+    link: 'https://bazhum.muzhp.pl/media/files/Kwartalnik_Historii_Nauki_i_Techniki/Kwartalnik_Historii_Nauki_i_Techniki-r1958-t3-n3/Kwartalnik_Historii_Nauki_i_Techniki-r1958-t3-n3-s355-375/Kwartalnik_Historii_Nauki_i_Techniki-r1958-t3-n3-s355-375.pdf',
+    snippet: 'L Gulli — faktycznymi danymi umysłu — aby pojąć czym jest umysł, spójrzmy nań ze ... historia „nauki" nie jest historią ducha ludzkiego, lecz stanowi dzie- je ...'
+  },
+  {
+    title: 'Człowiek twórcą historii',
+    link: 'https://historia.uwb.edu.pl/download/BFBsOJy8aFxk9MUVISHVuYVpKYWoXI1A6CSIKEQoKc2BND0FuaQMEKT4wBAY1JD56VVtxfxd9FykHNwsRCgpzYE0KUXJpX1QrOzECHkh3eBwKCiA0XCFBMAk-KCcPC3N2TUkCMC4dAhk9MUVISHt4dE0PJjRGOFo3OTkKbFlMaHhDGxAnOQUfJTF3XVAMPzU2G1tvZEUwQTFEakwoCgI0KTMWEzAkGRMlICY7XVh0BncfFR9pUTRGOhQ5HjoKAT8GQApRchdcRxp7bDtdSGF4PgYVJmQPc0EGUA8ZLxEdKy4OTTwsJAQZJS4wFBwPKjUHBwwuJ1s4Ri0fDwYnEBo-KBZSAh0lEik2JjoABzU1IjEwDhwlTzRGOjliQD4HCHN2TVUCLCxRTGQkOUUP/t_6_warsztat_nowoczesnego_humanisty_historyka_na_progu_xxi_w_czesc_2.pdf',
+    snippet: 'W obronie naukowego statusu historii. Krzysztof Brzechczyn, Piotr Kowalewski Jahromi. Między wyjaśnianiem a mitologizacją historii .'
+  },
+  {
+    title: 'Ludwik Finkel o nauczaniu historii',
+    link: 'https://rep.up.krakow.pl/xmlui/bitstream/handle/11716/3536/08--Ludwik-Finkel--Augustynek.pdf?sequence=1&isAllowed=y',
+    snippet: 'K Augustynek · 1965 · Cytowane przez 4 — Na etapie tym dostrzegał pewien dorobek „ducha ludzkiego”, tam też upatrywał początków historii. Działalność człowieka widział zawsze w określonym związku ...'
+  },
+  {
+    title: 'Filozofia. Zarys historii',
+    link: 'https://pbc.gda.pl/Content/68249/Filozofia_zarys_historii.pdf',
+    snippet: 'Natura naszego umysłu wpływa na obraz świata, nauka jest w pewnym stopniu subiektywna. Einstein uzależniał czas i przestrzeń od obserwatora. Wniosek ten.'
+  },
+  {
+    title: 'Marceli Handelsman',
+    link: 'https://historia.uw.edu.pl/wp-content/uploads/2021/04/m._handelsmann_-_historyka.pdf',
+    snippet: 'kształt ducha ludzkiego”, zajmując się formami państwa, jego organami i funkcjami, faktami społecznemi lub gospodarczemi i stosunkami między niemi, w ujęciu ...'
+  },
+  {
+    title: 'Empiryzm brytyjski: George Berkeley – kryteria istnienia',
+    link: 'https://zpe.gov.pl/pdf/PLnCgybE9',
+    snippet: 'ludzkiego umysłu, stanowiące przedmiot poznania introspekcja. (łac. introspicio — patrzę do wnętrza) obserwowanie i badanie własnych przeżyć psychicznych.'
+  },
+  {
+    title: 'PDF - Nauczanie historii w szkołach podstawowych w ...',
+    link: 'https://bibliotekanauki.pl/books/1365648.pdf',
+    snippet: 'Celem pracy jest ukazanie warunków organizacyjnych i ideologiczno-politycz- nych, w jakich nauczano historii w szkołach podstawowych w okresie funkcjono-.'
+  },
+  {
+    title: 'Szkolne podręczniki do nauki historii w Galicji - CBHist.eu',
+    link: 'https://cbhist.pan.pl/wp-content/uploads/szkolne-podreczniki-do-nauki-historii-w-galicji-red-b-dybas-i-kakolewski-pan-wien-2018-e-book01-1.pdf',
+    snippet: 'miała wykazywać rozwój ducha narodowego Polaków, mimo politycznej nie- szy podręcznik powojenny, stojący na wysokości zadania”. Zob.: Pohoska, Dydaktyka ...'
+  },
+  {
+    title: 'Immanuel Kant, Krytyka czystego rozumu',
+    link: 'https://wolnelektury.pl/katalog/lektura/krytyka-czystego-rozumu.html',
+    snippet: 'Ale co się tyczy metafizyki, to dotychczasowy jej lichy rozwój oraz ta okoliczność, że o żadnej dotąd nam przedłożonej co do najistotniejszego punktu jej celu ...'
+  },
+  {
+    title: 'Człowiek twórcą historii',
+    link: 'https://historia.uwb.edu.pl/download/sFBsOJy8aFxk9MUVISHVuYVpMYWoXI1A6CSIKEQoKc2BNAUFuaQMEKT4wBAY1JD56VVtxfxd9FykHNwsRCgpzYE0KUXJpX1QrOzECHkh3eBwKCiA0XCFBMAk-KCcPC3N2TUkCMC4dAhk9MUVISHV4dE0PJjRGOFo3OTkKbFlMaHhDGxAnOQUfJTF3XVAMPzU2G1tvZEUwQTFEakwoCgI0KTMWEzAkGRMlICY7XVh0BncfFR9pUTRGOhQ5HjoKAT8GQApRchdcRxp7bDtdSGF4PgYVJmQPc0EGXg8DJwYEIjkKZgsrOAcZND08OAU1KD4tBBggLFwOXSwLMQAnEBooORVXBigUBCk-LDw4BTUuID0cGhx0GyFRP0R8TCICADZ4VRsTLmkO/t_8_miejsce_historii_w_edukacji_humanistycznej_w_xxi_w_czesc_2.pdf',
+    snippet: 'Dydaktyka historii w czasach zmiany i wobec zmiany. Izabela Lewandowska. Główne nurty refleksji dydaktyczno-historycznej po 1989 r.'
+  }
+]
+No exact match found for "Przygotowania do nauki dziejów powszechnych i historji, rozwinięcie się umysłu i ducha ludzkiego"
+Google results for "Dzieje starożytne : Wschód": [
+  {
+    title: 'Starożytny Bliski Wschód – Wikipedia, wolna encyklopedia',
+    link: 'https://pl.wikipedia.org/wiki/Staro%C5%BCytny_Bliski_Wsch%C3%B3d',
+    snippet: 'Terytorium Starożytnego Bliskiego Wschodu obejmuje starożytny Egipt, obszary wzdłuż Morza Śródziemnego aż do Morza Czarnego wraz z Syrią i Palestyną, tereny nad ...'
+  },
+  {
+    title: 'Chronologia starożytnego Bliskiego Wschodu',
+    link: 'https://pl.wikipedia.org/wiki/Chronologia_staro%C5%BCytnego_Bliskiego_Wschodu',
+    snippet: 'Chronologia starożytnego Bliskiego Wschodu – kolejność następowania po sobie wydarzeń, lat panowania władców i dynastii Bliskiego Wschodu na przestrzeni ok.'
+  },
+  {
+    title: 'Cywilizacje Starożytnego Wschodu. - Starożytność',
+    link: 'https://www.bryk.pl/wypracowania/historia/starozytnosc/9409-cywilizacje-starozytnego-wschodu.html',
+    snippet: 'Cywilizacje Starożytnego Wschodu. · Egipt- Nil · Mezopotamia- Tygrys, Eufrat · Chiny- Jangcy, Huang-ho · Indie- Indus, Ganges.'
+  },
+  {
+    title: 'Starożytny Bliski Wschód',
+    link: 'https://pl.khanacademy.org/humanities/ancient-art-civilizations/ancient-near-east1',
+    snippet: 'Dzięki wsparciu Smarthistory. Starożytne kultury Bliskiego Wschodu założyły pierwsze miasta oraz stworzyły pierwsze zbiory praw i najstarszy znany nam język ...'
+  },
+  {
+    title: 'Hieroglifem pisane dzieje… Starożytny Wschód w ...',
+    link: 'https://al.uw.edu.pl/book/hieroglifem-pisane-dzieje-starozytny-wschod-w-wyobrazni-romantykow/',
+    snippet: '„Celem książki, którą oddajemy w ręce Czytelnika, jest przedstawienie nowoczesnego ujęcia tradycji egipskiej, babilońskiej, orfickiej i rzymskiej w ...' 
+  },
+  {
+    title: 'Ludy i Cywilizacje Starożytnego Bliskiego Wschodu - Knowunity',
+    link: 'https://knowunity.pl/knows/historia-chronologia-dziejw-staroytnego-bliskiego-wschodu-0ae774b5-c0fd-4e06-8500-dd4d92d32395',
+    snippet: 'W pierwszym tysiącleciu p.n.e. nastąpiło wiele znaczących wydarzeń, w tym założenie Kartaginy, niewola babilońska Żydów i zdobycie Babilonii przez Persów. Okres ...'
+  },
+  {
+    title: 'Wielkie cywilizacje starożytnego Bliskiego Wschodu',
+    link: 'https://www.bryk.pl/wypracowania/historia/starozytnosc/3748-wielkie-cywilizacje-starozytnego-bliskiego-wschodu-mezopotamia-egipt-palestyna-historia-grecji.html',
+    snippet: 'Starożytny Wschód to obszar kształtowania się najstarszych cywilizacji oraz powstania pierwszych miast i organizmów państwowych.'
+  },
+  {
+    title: 'Historia starożytności (starożytny Wschód) - USOSweb',
+    link: 'https://usosweb.upjp2.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=HIS-SL%3Ehisstrws-%C4%87',
+    snippet: 'Celem zajęć jest uzupełnianie wiedzy poznawanej na wykładzie z historii starożytnej w oparciu o samodzielną analizę fachowej literatury przedmiotu i pracę z ...'
+  },
+  {
+    title: 'Dzieje Wschodu Starożytnego 3600-KWS-DWS-OW',
+    link: 'https://informatorects.uw.edu.pl/pl/courses/view?prz_kod=3600-KWS-DWS-OW',
+    snippet: 'Wykład dotyczy historii Wschodu Starożytnego od czasów najdawniejszych po podboje Aleksandra Wielkiego (w zarysie). Opisuje: 1.'
+  },
+  {
+    title: 'Wprowadzenie do historii starożytnego Bliskiego Wschodu',
+    link: 'https://www.wuw.pl/download-attachment.php?h=m7G5RMSUpaSXl2W3ksfK1dSVpXR0V4c=',
+    snippet: 'To historia cywilizacji, która rozwinęła się w regionie geograficznym zwanym. „Żyznym Półksiężycem”, jednym z najbogatszych, jeśli chodzi o znaczące ślady ...'
+  }
+]
+No exact match found for "Dzieje starożytne : Wschód"
+Google results for "Nowe wieczory Pod Lipą : książka dla młodzieży : opowiadania z historyi powszechnej i z historyi Polski, z ludoznawstwa, krajoznawstwa i z przyrody kraju ojczystego, tudzież legendy, poezye i powieści. Cz. 1": [
+  {
+    title: 'Tytuł: Wieczory pod lipą czyli historyja narodu polskiego ...',
+    link: 'https://www.wbc.poznan.pl/dlibra/publication/1405/edition/2246?language=pl',
+    snippet: 'Tytuł: Wieczory pod lipą czyli historyja narodu polskiego opowiadana przez Grzegorza z pod Racławic. Twórca: Siemieński, Lucjan. Typ obiektu:.'
+  },
+  {
+    title: 'Wieczory pod lipą czyli historya narodu polskiego, 1873r.',
+    link: 'https://tezeusz.pl/wieczory-pod-lipa-czyli-historya-narodu-polskiego-1873r-grzegorz-z-pod-raclawic-1194037?srsltid=AfmBOopR9Ci-LR4UAKL_SJJ93SqthpmUiI4JHap06yLUUnDjOADVC07I',
+    snippet: 'W książce opisana historia Polski od czasów Lecha i Krakusa po upadek Powstania Listopadowego. Forma 50 opowieści, prze starego wiarusa dzieciom przekazywanych.'
+  },
+  {
+    title: 'Wieczory pod lipą czyli Historya narodu polskiego... Lucjan ...',
+    link: 'https://allegro.pl/oferta/wieczory-pod-lipa-czyli-historya-narodu-polskiego-lucjan-siemienski-1926-16790192504?srsltid=AfmBOoq3AlnMNeY0nU_7cgwpVDy_Z5Wg3g8oROF0h5RQcYS_pUcAoUMH',
+    snippet: 'Gatunek, historia ; Tytuł, Wieczory pod lipą czyli Historya narodu polskiego opowiadana przez Grzegorza z pod Racławic. ; Autor, Lucjan Siemieński ; Rok wydania ...'
+  },
+  {
+    title: 'Temat: historia mostownictwa - Prolib Integro',
+    link: 'https://luna.collegiumwitelona.pl/integro/ici/search?q=historia+mostownictwa&index=4&f3[0]=Historia',
+    snippet: 'Tytuł: Nowe wieczory Pod Lipą : książka dla młodzieży : opowiadania z historyi powszechnej i z historyi Polski, z ludoznawstwa, krajoznawstwa i z przyrody ...'
+  },
+  {
+    title: 'Wieczory pod lipą czyli Historya narodu polskiego ...',
+    link: 'https://ksiazkanaprezent.pl/sklep/449-wieczory-pod-lipa-czyli-historya-narodu-polskiego-opowiadana-przez-grzegorza-z-pod-raclawic.html',
+    snippet: 'Wieczory pod lipą czyli Historya narodu polskiego opowiadana przez Grzegorza z pod Racławic ; Wydawca. Księgarnia J. M. Himmelblaua ; Miejsce wydania. Kraków.'
+  },
+  {
+    title: 'bibliografia - ludoznawstwa polskiego',
+    link: 'http://www.rcin.org.pl/Content/8273/WA308_909_III419_BIBLIOGRAFIA_I.pdf',
+    snippet: 'Ruch na polu ludoznawstwa polskiego wzmógł się w ostatnich czasach znacznie. Coraz częściej pojawiające się rozprawy, broszury.'
+  },
+  {
+    title: 'Temat: Intarsja - historia - Polska - Prolib Integro',
+    link: 'https://luna.collegiumwitelona.pl/integro/ici/search?q=Intarsja+-+historia+-+Polska&index=4',
+    snippet: '... : opowiadania z historyi powszechnej i z historyi Polski, z ludoznawstwa, krajoznawstwa i z przyrody kraju ojczystego, tudzież legendy, poezye i powieści. Cz. 1 ...'
+  },
+  {
+    title: 'Jarosław Ławski, Patryk Suchodolski, Łukasz Zabielski',
+    link: 'https://repozytorium.uwb.edu.pl/jspui/bitstream/11320/13855/1/J_Lawski_P_Suchodolski_L_Zabielski_Naukowe_i_literackie_swiaty_Zygmunta_Glogera.pdf',
+    snippet: 'J Ławski · 2022 — Tu znajdują się wielkie centra religijne i kulturalne wschodniego i zachodniego chrystianizmu: Ostra Brama, Ży- rowice, Święta Góra Grabarka, Poczajów, Troki, ...'
+  },
+  {
+    title: 'ziejka_mistrzowie_slowa_i_czyn...',
+    link: 'https://ruj.uj.edu.pl/bitstreams/e640acd2-f0e1-4a26-8630-ce74c1894646/download',
+    snippet: 'F Ziejka — ... Książka została dofinansowana przez Ministerstwo Nauki i Szkolnictwa Wyższego ISBN 978-83-7638-154-1 KSIĘGARNIA AKADEMICKA ul. św. Anny 6, 31-008 Kraków tel ...'
+  },
+  {
+    title: 'WIECZORY POD LIPĄ CZYLI HISTORYA NARODU ...',
+    link: 'https://kwadryga.com/produkt/wieczory-pod-lipa-czyli-historya-narodu-polskiego/',
+    snippet: 'Książka podzielona na 50 rozdziałów. Obejmuje historię Polski do 1831 roku. Kategorie: Historia, Książki - XIX w, Literatura piękna.'
+  }
+]
+No exact match found for "Nowe wieczory Pod Lipą : książka dla młodzieży : opowiadania z historyi powszechnej i z historyi Polski, z ludoznawstwa, krajoznawstwa i z przyrody kraju ojczystego, tudzież legendy, poezye i powieści. Cz. 1"
+Searching for "Dumania żołnierza polskiego na wałach starożytnego zamku Maurow w Hiszpanii" on Google...
+Searching for "Dykcyonarz historyczny y geograficzny do zrozumienia autorow tak łacinskich, iako też z łacinskiego na polski tłumaczonych, osobliwie zas klassycznych i sławnych naszego wieku poetow słuzący po wielokrotnych w obcym ięzyku edycyach, na polski ięzyk przełozony" on Google...
+Searching for "Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 2" on Google...
+Google results for "Dumania żołnierza polskiego na wałach starożytnego zamku Maurow w Hiszpanii": [
+  {
+    title: 'Dumania żołnierza polskiego, na wałach starożytnego zamku ...',
+    link: 'https://fbc.pionier.net.pl/details/nh2n2fs',
+    snippet: 'Dumania żołnierza polskiego, na wałach starożytnego zamku Maurów w Hiszpanii / napisane przez Kantorberego Tomasza Tymowskiego.'
+  },
+  {
+    title: 'Dumania żołnierza polskiego, na wałach starożytnego zamku ...',
+    link: 'https://crispa.uw.edu.pl/object/files/612042/display/JPEG',
+    snippet: 'Dumania żołnierza polskiego, na wałach starożytnego zamku Maurów w Hiszpanii / napisane przez Kantorberego Tomasza Tymowskiego. · JPEG · PDF.'
+  },
+  {
+    title: 'Polona',
+    link: 'https://polona.pl/item/dumania-zolnierza-polskiego-na-walach-starozytnego-zamku-maurow-w-hiszpanii,OTgwNzUyNTE/0/',
+    snippet: ''
+  },
+  {
+    title: 'fałszywy trop elegii Kantorberego Tymowskiego',
+    link: 'https://bazhum.muzhp.pl/media//files/Prace_Polonistyczne_Studies_in_Polish_Literature/Prace_Polonistyczne_Studies_in_Polish_Literature-r2001-t56/Prace_Polonistyczne_Studies_in_Polish_Literature-r2001-t56-s41-70/Prace_Polonistyczne_Studies_in_Polish_Literature-r2001-t56-s41-70.pdf',
+    snippet: 'rza polskiego na wałach starożytnego zamku Mauróiv w Hiszpanii z w olanta oraz Dumania żołnierza polskiego w starożytnym zam ku Maurów nad Tagiem z ...' 
+  },
+  {
+    title: 'Tymowski, Tomasz Kantorbery (1790-1850) Autor',
+    link: 'https://opac.mbp.lublin.pl/ici/search?q=Tymowski%2C+Tomasz+Kantorbery+%281790-1850%29+Autor&index=2&f3[0]=Patriotyzm',
+    snippet: 'Tytuł: Dumania żołnierza polskiego na wałach starożytnego zamku Maurow w Hiszpanii; Autorzy: Tymowski, Tomasz Kantorbery (1790-1850).'
+  },
+  {
+    title: 'Tomasz Kantorbery Tymowski',
+    link: 'https://pl.wikipedia.org/wiki/Tomasz_Kantorbery_Tymowski',
+    snippet: 'Rozgłos zyskała elegia Dumania żołnierza polskiego w starożytnym zamku Maurów nad Tagiem (1810, wersja rozszerzona 1815).'
+  },
+  {
+    title: '„Hiszpania! Jakież czarodziejskie słowo, jakże uroczo ...',
+    link: 'https://studiahistoricolitteraria.uken.krakow.pl/article/download/8916/8066/28464',
+    snippet: '2 T.K. Tymowski, Dumania żołnierza polskiego, na wałach starożytnego zamku Maurów w Hiszpanii, [w:] Wpisy polskie zebrane prozą i wierszem z dzieł dawnych i ...'
+  },
+  {
+    title: 'Warto wiedzieć - Karabela.',
+    link: 'https://www.karabela.waw.pl/aktualnosci/warto_wiedziec/',
+    snippet: 'Tymowskiego, uczestnika kampanii Napoleona w Hiszpanii zatytułowaną: Dumania żołnierza polskiego na wałach starożytnego zamku Maurów nad Tagiem” [str. 67-70].'
+  },
+  {
+    title: 'Hiszpania! Jakież czarodziejskie słowo, jakże uroczo ... - CEJSH',
+    link: 'http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24917_20811853_21_8',
+    snippet: 'AE Mikinka · 2021 — ... Hiszpania, Warszawa 1905. Tymowski T.K., Dumania żołnierza polskiego, na wałach starożytnego zamku Maurów w Hiszpanii, [w:] Wpisy polskie zebrane prozą i ...'
+  },
+  {
+    title: 'dostęp on-line do pbl',
+    link: 'https://pbl.ibl.poznan.pl/dostep/index.php?s=d_biezacy&f=zapisy&p_tworcaid=13057',
+    snippet: '4. utwór: Dumanie żołnierza polskiego na wałach starożytnego zamku Maurów nad Tagiem. szczegóły. artykuł: Wichrowska Elżbieta: Jest Hiszpania za górami...'
+  }
+]
+No exact match found for "Dumania żołnierza polskiego na wałach starożytnego zamku Maurow w Hiszpanii"
+Google results for "Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 2": [
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w ...',
+    link: 'https://katalogi.bn.org.pl/discovery/fulldisplay?docid=alma9910459720905606&vid=48OMNIS_NLOP:48OMNIS_NLOP',
+    snippet: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 1 / O. Leixner ...'
+  },
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w ...',
+    link: 'https://katalogi.bn.org.pl/discovery/fulldisplay?docid=alma9910276455705606&vid=48OMNIS_NLOP:48OMNIS_NLOP',
+    snippet: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 2 / O. Leixner ...'
+  },
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w ...',
+    link: 'https://repozytorium.biblos.pk.edu.pl/resources/39654',
+    snippet: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi illustracyami . T. 2 - Redo.'
+  },
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi ...',
+    link: 'https://bc.radom.pl/dlibra/publication/40377/edition/39123?language=en',
+    snippet: '22 lis 2021 — Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami T.'
+  },
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w ...',
+    link: 'https://repozytorium.biblos.pk.edu.pl/resources/37169',
+    snippet: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi illustracyami. T. 1 - Redo.'
+  },
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w ...',
+    link: 'https://polona2.pl/item/wiek-xix-obraz-wazniejszych-wypadkow-na-tle-cywilizacyi-w-dziedzinie-historyi-sztuki,ODc4NTUyNDc/',
+    snippet: 'T. 1 · Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 1'
+  },
+  {
+    title: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi ...',
+    link: 'https://bc.wbp.lublin.pl/dlibra/publication/2680',
+    snippet: 'Projekt „Kultura bez ograniczeń – digitalizacja i udostępnianie dziedzictwa kulturowego ze zbiorów Wojewódzkiej Biblioteki Publicznej im. Hieronima ...' 
+  },
+  {
+    title: 'dLibra Digital Library - Wiek XIX : obraz ważniejszych wypadków na ...',
+    link: 'http://bc.wbp.lublin.pl/dlibra/docmetadata?id=10884&from=pubindex&dirids=28&lp=3276',
+    snippet: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 2 · Digitisation ...'
+  },
+  {
+    title: 'ARIADNA - Biblioteka Śląska',
+    link: 'https://www.ariadna.bs.katowice.pl/details/26de8e2bc16c5279ebb9',
+    snippet: 'Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki, z licznemi ilustracyami. T. 2 / O. Leixner ...'
+  },
+  {
+    title: 'Wiek XIX, T. 2 - Śląska Biblioteka Cyfrowa',
+    link: 'https://reader.digitarium.pcss.pl/dlibra/publication/84673/edition/82403',
+    snippet: 'Wiek XIX. Obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki, z licznemi ilustracyami. Zobacz opis ...'
+  }
+]
+No exact match found for "Wiek XIX : obraz ważniejszych wypadków na tle cywilizacyi w dziedzinie historyi, sztuki, nauki, przemysłu i polityki z licznemi ilustracyami. T. 2"
+Google results for "Dykcyonarz historyczny y geograficzny do zrozumienia autorow tak łacinskich, iako też z łacinskiego na polski tłumaczonych, osobliwie zas klassycznych i sławnych naszego wieku poetow słuzący po wielokrotnych w obcym ięzyku edycyach, na polski ięzyk przełozony": [
+  {
+    title: 'Dykcyonarz Historyczny Y Geograficzny Do Zrozumienia ...',
+    link: 'https://www.dbc.wroc.pl/dlibra/publication/26759/edition/24197?language=pl',
+    snippet: 'Tytuł: Dykcyonarz Historyczny Y Geograficzny Do Zrozumienia Autorow Tak Łacińskich, Iako Też Z Łacińskiego Na Polskich Tłumaczonych, Osobliwie Zas Klassycznych ...'
+  },
+  {
+    title: 'Źródła do badań nad obrazem Francji w XVIII-wiecznej R...',
+    link: 'https://kwartalnikpedagogiczny.pl/seo/article/01.3001.0009.8282/pl',
+    snippet: 'M Mikusek · 2015 — 7. Echard L. 1784. Dykcyonarz Historyczny y Geograficzny do zrozumienia Autorów tak Łacińskich, iako też z Łacińskiego na Polski Tłumaczonych, osobliwie zas ...'
+  },
+  {
+    title: 'Ancient Physical Culture in Polish-Language Literature of ...',
+    link: 'https://www.tandfonline.com/doi/abs/10.1080/09523367.2021.1873280',
+    snippet: 'M Zmuda Palka · 2021 · Cytowane przez 4 — 54 Dykcyonarz historyczny y geograficzny, 156. 55 Steven A. Zecola, The Major Forces Driving Humanity: Solutions for a Growing Divide ...'
+  },
+  {
+    title: 'Źródła do badań nad obrazem Francji w XVIII-wiecznej ...',
+    link: 'http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ceon.element-8d9f7d1f-8c10-3c0a-8b9c-2e3ba1dc68f1/c/pdf-01.3001.0009.8282.pdf',
+    snippet: 'M Mikusek · 2015 — ... y ... zrozumienia Autorów tak Łacińskich, iako też z Łacińskiego na Polski Tłumaczonych, osobliwie zas klassycznych i sławnych naszego wieku.'
+  },
+  {
+    title: 'Słownik polsko-łaciński. T. 2, P-Z / › BG UP Lublin - catalog',
+    link: 'https://katalog.bg.up.lublin.pl/cgi-bin/koha/opac-detail.pl?biblionumber=30207',
+    snippet: 'Słownik polsko-łaciński. T. 2, P-Z / przez Antoniego Bielikowicza. · By: Bielikowicz, Antoni, (1820-1872) [Autor] · Contributor(s): Drukarnia Uniwersytetu ...'
+  },
+  {
+    title: 'ŁACINA W POLSCE ŚREDNIOWIECZNE ...',
+    link: 'https://pau.krakow.pl/publikacje_online/Lacina_w_Polsce.pdf',
+    snippet: 'J Domański · 2020 · Cytowane przez 2 — ... też (zasięg ten pomocniczymi tylko danymi rozszerzający) łacińsko-polski słownik Plezi. Wstęp: Latinitas, czyli obecność dziedzictwa antycznego w łacińskim ...'
+  },
+  {
+    title: 'Sylwia Krukowska Ł ACINA',
+    link: 'https://wszechnicapolska.edu.pl/dokumenty/biblioteka/publikacje-cyfrowe/Sylwia-Krukowska-LACINA-jako-srodek-komunikowania-tresci.pdf',
+    snippet: 'Niniejsza praca składa się z dwóch zasadniczych części, mianowicie z ujęcia diachronicznego procesów i przemian prowadzących do powstania terminologii.' 
+  },
+  {
+    title: 'Ze studiów nad rolą i miejscem łaciny prawniczej w ...',
+    link: 'https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/17c6bbd6-6945-47f9-8d1c-d58317dd3a80/pobierz',
+    snippet: 'J Sondel · Cytowane przez 1 — w szkolnictwie, rozszerzenie znajomości autorów klasycznych, a także narzucenie du- chowieństwu przez Karola Wielkiego powrotu do klasycznej łaciny28 ...'
+  },
+  {
+    title: 'DOROTA ŻUCHOWSKA LUDENDO DISCAMUS!',
+    link: 'https://ore.edu.pl/wp-content/uploads/2019/12/program-nauczania-jezyka-lacinskiego-i-kultury-antycznej-pn.-ludendo-discamus-.pdf',
+    snippet: 'świadomość i ekspresja kulturalna, interkulturowość, porozumiewanie się w języku ojczystym, w zależności od sytuacji również porozumiewanie się w języku obcym.'
+  },
+  {
+    title: 'Dr Katarzyna Ochman Kulturowe i edukacyjne znaczenie ...',
+    link: 'https://issuu.com/ore.edu.pl/docs/do_zawieszenia_i_wydruku_kongres_edukacji_klasyczn/s/15771965',
+    snippet: 'Używali języka, który był ich językiem ojczystym, a zarazem językiem międzynarodowym. Z biegiem czasu stałosię tak, że łacina– już po upadku Cesarstwa– ...'
+  }
+]
+No exact match found for "Dykcyonarz historyczny y geograficzny do zrozumienia autorow tak łacinskich, iako też z łacinskiego na polski tłumaczonych, osobliwie zas klassycznych i sławnych naszego wieku poetow słuzący po wielokrotnych w obcym ięzyku edycyach, na polski ięzyk przełozony"
+PS C:\POLONA> 

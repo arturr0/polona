@@ -1,38 +1,28 @@
-import * as cheerio from 'cheerio';
-import fetch from 'node-fetch';
+import * as cheerio from 'cheerio';  // Correct import for cheerio
+import fetch from 'node-fetch';  // Correct import for node-fetch
 
+// Funkcja do wyszukiwania frazy na domenach .gov.pl
 async function searchOnGoogle(fraza) {
   try {
     const query = `site:gov.pl ${fraza}`;
     const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
 
-    // Sending the HTTP request to Google
+    // Wysyłanie zapytania HTTP do Google
     const response = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
 
-    // Parsing the response using Cheerio
+    // Parsowanie odpowiedzi za pomocą Cheerio (biblioteka do parsowania HTML)
     const html = await response.text();
     const $ = cheerio.load(html);
     const results = [];
     
-    // Modify selector to capture real search result links
-    $('.g').each((index, element) => { // 'g' class for search results in Google
-      let link = $(element).find('a').attr('href');
-      
-      // Skip non-useful links (e.g., Google internal links or empty anchors)
-      if (!link || link.startsWith('#') || link.includes('google.com') || link.includes('/search')) {
-        return;  // Skip this link
-      }
-
-      // Handle protocol-relative URLs by adding 'https:' if needed
-      if (link.startsWith('//')) {
-        link = 'https:' + link;
-      }
-
-      // Only include links that start with 'http' and contain 'gov.pl'
-      if (link.startsWith('http') && link.includes('gov.pl')) {
-        results.push(link);
-      }
+    $('a').each((index, element) => {
+      const link = $(element).attr('href');
+      // if (link && link.includes('gov.pl')) {
+      //   results.push(link);
+      // }
+      results.push(link);
     });
+    
 
     return results;
   } catch (error) {
@@ -41,9 +31,11 @@ async function searchOnGoogle(fraza) {
   }
 }
 
+// Funkcja do przetwarzania wyników z Polona i wyszukiwania fraz na stronach .gov.pl
 async function processPolonaResults() {
   const polonaResults = [
     { title: 'projekt', keywords: ['projekt'] }
+    // { title: 'Polska literatura', keywords: ['literatura', 'polska', 'kultura'] },
   ];
 
   for (const result of polonaResults) {
@@ -54,4 +46,5 @@ async function processPolonaResults() {
   }
 }
 
+// Uruchomienie procesu
 processPolonaResults().catch(console.error);
